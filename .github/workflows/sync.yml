@@ -25,4 +25,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --quiet || git commit -m "sync wishlist [skip ci]"
+          # concurrent run/user push race: replay our commit on top; identical
+          # content becomes empty and is dropped, push then no-ops
+          git pull --rebase origin main
           git push
