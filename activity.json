@@ -5,7 +5,10 @@
 "reldate": "2026-10-25",
 "slug": "MHSanaei/3x-ui"
 },
-"4get": {},
+"4get": {
+"lastact": "2026-10-31",
+"slug": "https://git.lolcat.ca/lolcat/4get"
+},
 "access-to-memory-atom": {
 "gap_days": 0,
 "pushed": "2026-10-26",
@@ -48,7 +51,9 @@
 "reldate": "2026-10-27",
 "slug": "akaunting/akaunting"
 },
-"aktivisda": {},
+"aktivisda": {
+"lastact": "2026-01-06"
+},
 "aliasvault": {
 "gap_days": 0,
 "pushed": "2026-10-31",
@@ -61,13 +66,18 @@
 "reldate": "2026-10-22",
 "slug": "altcha-org/altcha"
 },
-"amara": {},
+"amara": {
+"lastact": "2020-01-14",
+"slug": "https://gitlab.com/hanklank/amara-archive"
+},
 "amneziawg": {
+"lastact": "2026-08-28",
 "pushed": "2026-09-20",
 "reldate": "",
 "slug": "amnezia-vpn/amneziawg-go"
 },
 "amusewiki": {
+"lastact": "2026-10-27",
 "pushed": "2026-10-27",
 "reldate": "",
 "slug": "melmothx/amusewiki"
@@ -79,8 +89,9 @@
 "slug": "blazer82/analytodon"
 },
 "anki-sync-server": {
+"gap_days": 269,
 "pushed": "",
-"reldate": "",
+"reldate": "2022-10-14",
 "slug": "ankicommunity/anki-sync-server"
 },
 "anonaddy": {
@@ -102,11 +113,13 @@
 "slug": "TecharoHQ/anubis"
 },
 "anytype": {
+"lastact": "2026-10-13",
 "pushed": "2026-10-27",
 "reldate": "",
 "slug": "anyproto/any-sync"
 },
 "apertium": {
+"lastact": "2025-06-16",
 "pushed": "2026-09-16",
 "reldate": "",
 "slug": "apertium/apertium-html-tools"
@@ -117,7 +130,10 @@
 "reldate": "2026-10-28",
 "slug": "appsmithorg/appsmith"
 },
-"aptcacher-ng": {},
+"aptcacher-ng": {
+"lastact": "2026-10-11",
+"slug": "salsa.debian.org/blade/apt-cacher-ng"
+},
 "archivematica": {
 "gap_days": 129,
 "pushed": "2026-10-31",
@@ -131,17 +147,24 @@
 "slug": "archivesspace/archivesspace"
 },
 "armbian-hastebin": {
+"lastact": "2026-09-14",
 "pushed": "2026-10-29",
 "reldate": "",
 "slug": "armbian/hastebin-ansi"
 },
-"asqatasun": {},
+"asqatasun": {
+"gap_days": 53,
+"reldate": "2026-05-06",
+"slug": "https://gitlab.com/asqatasun/Asqatasun"
+},
 "ass": {
+"lastact": "2025-11-08",
 "pushed": "2025-11-08",
 "reldate": "",
 "slug": "tycrek/ass"
 },
 "astral": {
+"lastact": "2026-10-29",
 "pushed": "2026-10-29",
 "reldate": "",
 "slug": "astralapp/astral"
@@ -171,6 +194,7 @@
 "slug": "backstage/backstage"
 },
 "bandwagon": {
+"lastact": "2026-10-30",
 "pushed": "2026-10-30",
 "reldate": "",
 "slug": "EmissarySocial/bandwagon"
@@ -181,8 +205,12 @@
 "reldate": "2026-10-29",
 "slug": "karlomikus/bar-assistant"
 },
-"bdserver": {},
+"bdserver": {
+"lastact": "2026-07-24",
+"slug": "codeberg.org/blenderdumbass/BDServer/"
+},
 "bearblog": {
+"lastact": "2026-10-21",
 "pushed": "2026-10-21",
 "reldate": "",
 "slug": "HermanMartinus/bearblog"
@@ -192,8 +220,12 @@
 "reldate": "2023-12-10",
 "slug": "snuffyDev/Beatbump"
 },
-"beeper": {},
+"beeper": {
+"lastact": "2026-07-16",
+"slug": "https://gitlab.comBenjaminFosters/CommandBeep"
+},
 "benelios": {
+"lastact": "2026-10-29",
 "pushed": "2026-10-29",
 "reldate": "",
 "slug": "glondu/belenios"
@@ -217,8 +249,9 @@
 "slug": "NicolasConstant/BirdsiteLive"
 },
 "bitcartcc": {
+"gap_days": 0,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-26",
 "slug": "bitcartcc/bitcart"
 },
 "bitmagnet": {
@@ -234,8 +267,9 @@
 "slug": "Bitmessage/PyBitmessage"
 },
 "blynk": {
+"gap_days": 133,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-06",
 "slug": "blynkkk/blynk-library"
 },
 "boinc": {
@@ -250,13 +284,20 @@
 "reldate": "2026-09-19",
 "slug": "booklore-app/booklore"
 },
-"bpmn-io": {},
+"bpmn-io": {
+"gap_days": 7,
+"reldate": "2026-10-01",
+"slug": "bpmn-io/bpmn-js"
+},
 "brandcraft": {
+"lastact": "2025-08-27",
 "pushed": "",
 "reldate": "",
-"slug": "sevleo/BrandCraft"
+"slug": "jahidads/BrandCraft"
 },
-"brinjel": {},
+"brinjel": {
+"lastact": "2026-10-29"
+},
 "broadcast-box": {
 "gap_days": 3,
 "pushed": "2026-10-27",
@@ -264,6 +305,7 @@
 "slug": "Glimesh/broadcast-box"
 },
 "btw": {
+"lastact": "2026-08-15",
 "pushed": "2026-08-15",
 "reldate": "",
 "slug": "btw-so/btw"
@@ -318,7 +360,11 @@
 "reldate": "2026-10-22",
 "slug": "cattr-app/server-application"
 },
-"cecil": {},
+"cecil": {
+"gap_days": 1,
+"reldate": "2026-10-30",
+"slug": "Cecilapp/Cecil"
+},
 "chaskiq": {
 "gap_days": 140,
 "pushed": "2026-06-30",
@@ -326,13 +372,15 @@
 "slug": "chaskiq/chaskiq"
 },
 "chatmail": {
+"gap_days": 53,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-09-22",
 "slug": "chatmail/server"
 },
 "chatterbox": {
+"gap_days": 76,
 "pushed": "",
-"reldate": "",
+"reldate": "2022-10-17",
 "slug": "vector-im/chatterbox"
 },
 "chatwoot": {
@@ -348,6 +396,7 @@
 "slug": "bluewave-labs/checkmate"
 },
 "checkmk": {
+"lastact": "2026-10-30",
 "pushed": "",
 "reldate": "",
 "slug": "tribe29/checkmk"
@@ -394,7 +443,10 @@
 "reldate": "2026-10-31",
 "slug": "clearflask/clearflask"
 },
-"clicamap": {},
+"clicamap": {
+"lastact": "2026-10-30",
+"slug": "https://gitlab.com/reseau-amap/clicamap"
+},
 "clipbucket": {
 "gap_days": 12,
 "pushed": "2026-10-30",
@@ -403,17 +455,26 @@
 },
 "cloudtube": {},
 "cobalt": {
+"lastact": "2026-04-06",
 "pushed": "",
 "reldate": "",
 "slug": "wukko/cobalt"
 },
-"commonplace": {},
+"commonplace": {
+"gap_days": 0,
+"reldate": "2026-04-23"
+},
 "congressus": {
+"lastact": "2022-04-02",
 "pushed": "2023-04-08",
 "reldate": "",
 "slug": "PartiPirate/congressus"
 },
-"continuwuity": {},
+"continuwuity": {
+"gap_days": 12,
+"reldate": "2026-09-28",
+"slug": "https://forgejo.ellis.link/continuwuation/continuwuity"
+},
 "convertx": {
 "gap_days": 32,
 "pushed": "2026-10-28",
@@ -422,6 +483,7 @@
 },
 "coquelicot": {},
 "counter": {
+"lastact": "2026-09-04",
 "pushed": "2026-09-04",
 "reldate": "",
 "slug": "ihucos/counter.dev"
@@ -470,6 +532,7 @@
 "slug": "IQSS/dataverse"
 },
 "davmail": {
+"lastact": "2026-10-30",
 "pushed": "2026-10-30",
 "reldate": "",
 "slug": "mguessan/davmail"
@@ -480,7 +543,10 @@
 "reldate": "2026-10-30",
 "slug": "Freika/dawarich"
 },
-"dd-builder": {},
+"dd-builder": {
+"lastact": "2024-02-15",
+"slug": "https://gitlab.com/Birdiz/ddbuilder"
+},
 "decap-cms": {
 "gap_days": 0,
 "pushed": "2026-10-29",
@@ -493,9 +559,20 @@
 "reldate": "2026-10-27",
 "slug": "decidim/decidim"
 },
-"digibuzzer": {},
-"digishare": {},
-"digistorm": {},
+"digibuzzer": {
+"gap_days": 2,
+"reldate": "2026-10-12",
+"slug": "https://codeberg.org/ladigitale/digibuzzer"
+},
+"digishare": {
+"lastact": "2026-10-25",
+"slug": "https://codeberg.org/ladigitale/digishare"
+},
+"digistorm": {
+"gap_days": 4,
+"reldate": "2026-10-12",
+"slug": "https://codeberg.org/ladigitale/digistorm"
+},
 "directus": {
 "gap_days": 4,
 "pushed": "2026-10-30",
@@ -527,8 +604,9 @@
 "slug": "documenso/documenso"
 },
 "docusaurus": {
+"gap_days": 71,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-07-10",
 "slug": "facebook/docusaurus"
 },
 "docuseal": {
@@ -551,6 +629,7 @@
 "slug": "henriquesebastiao/downtify"
 },
 "drawdb": {
+"lastact": "2026-10-31",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "drawdb-io/drawdb"
@@ -596,26 +675,33 @@
 "slug": "skeeto/endlessh"
 },
 "endurain": {
+"gap_days": 6,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-27",
 "slug": "joaovitoriasilva/endurain"
 },
 "ente": {
+"gap_days": 3,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-30",
 "slug": "ente-io/ente"
 },
 "ente-photos": {
+"gap_days": 3,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-30",
 "slug": "ente-io/ente"
 },
 "ephemera": {
+"lastact": "2025-11-12",
 "pushed": "",
 "reldate": "",
-"slug": "OrwellianEpilogue/ephemera"
+"slug": "bannert1337/ephemera"
 },
-"erine-email": {},
+"erine-email": {
+"lastact": "2026-10-30",
+"slug": "https://gitlab.com/mdavranche/erine.email"
+},
 "erpnext": {
 "gap_days": 1,
 "pushed": "2026-10-31",
@@ -623,6 +709,7 @@
 "slug": "frappe/erpnext"
 },
 "etesync": {
+"lastact": "2024-07-12",
 "pushed": "2024-07-12",
 "reldate": "",
 "slug": "etesync/server"
@@ -634,9 +721,10 @@
 "slug": "evcc-io/evcc"
 },
 "eventschedule": {
+"gap_days": 3,
 "pushed": "2026-10-31",
-"reldate": "",
-"slug": "eventschedule/eventschedule?tab=readme-ov-file"
+"reldate": "2026-10-23",
+"slug": "EventSchedule/eventschedule"
 },
 "excalibur": {
 "gap_days": 0,
@@ -651,13 +739,18 @@
 "reldate": "2025-01-29",
 "slug": "benbusby/farside"
 },
-"fdroidserver": {},
+"fdroidserver": {
+"lastact": "2026-10-30",
+"slug": "https://gitlab.com/fdroid/fdroidserver"
+},
 "federated-wiki": {
+"lastact": "2026-10-06",
 "pushed": "2026-10-06",
 "reldate": "",
 "slug": "fedwiki/wiki-server"
 },
 "feedbin": {
+"lastact": "2026-10-17",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "feedbin/feedbin"
@@ -669,6 +762,7 @@
 "slug": "jeffvli/feishin"
 },
 "ferdium-server": {
+"lastact": "2026-10-23",
 "pushed": "2026-10-23",
 "reldate": "",
 "slug": "ferdium/ferdium-server"
@@ -680,23 +774,27 @@
 "slug": "FilenCloudDienste/filen-webdav"
 },
 "filestash": {
+"lastact": "2026-10-29",
 "pushed": "2026-10-29",
 "reldate": "",
 "slug": "mickael-kerjean/filestash"
 },
 "fileverse": {
+"gap_days": 7,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-30",
 "slug": "fileverse/fileverse-dsheet"
 },
 "fireshare": {
+"gap_days": 11,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-12",
 "slug": "ShaneIsrael/fireshare"
 },
 "fishnet": {
+"gap_days": 14,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-21",
 "slug": "niklasf/fishnet"
 },
 "fizzy": {
@@ -711,26 +809,36 @@
 "reldate": "2026-09-12",
 "slug": "FlareSolverr/FlareSolverr"
 },
-"flopedt": {},
+"flopedt": {
+"gap_days": 176,
+"reldate": "2024-01-11"
+},
 "flus": {
 "gap_days": 16,
 "pushed": "2026-10-31",
 "reldate": "2026-10-28",
 "slug": "flusio/Flus"
 },
-"fluxer": {},
+"fluxer": {
+"gap_days": 0,
+"reldate": "2026-10-31",
+"slug": "fluxerapp/fluxer"
+},
 "foldingathome": {
+"lastact": "2026-10-18",
 "pushed": "2026-10-18",
 "reldate": "",
 "slug": "FoldingAtHome/fah-client-bastet"
 },
 "forem": {
+"lastact": "2026-03-06",
 "pushed": "2026-03-06",
 "reldate": "",
 "slug": "forem/selfhost"
 },
 "fossil": {},
 "foutain-ink": {
+"lastact": "2026-02-05",
 "pushed": "2026-02-05",
 "reldate": "",
 "slug": "fountain-ink/app"
@@ -742,12 +850,16 @@
 "slug": "fractal6/fractal6.go"
 },
 "framaestro-hub": {
+"lastact": "2026-07-14",
 "pushed": "",
 "reldate": "",
 "slug": "mozilla/togetherjs"
 },
-"framamemes": {},
+"framamemes": {
+"lastact": "2026-10-23"
+},
 "freetar": {
+"lastact": "2026-09-25",
 "pushed": "2026-09-25",
 "reldate": "",
 "slug": "kmille/freetar"
@@ -759,8 +871,9 @@
 "slug": "blakeblackshear/frigate"
 },
 "fx": {
+"gap_days": 7,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-24",
 "slug": "rikhuijzer/fx"
 },
 "gathio": {
@@ -781,7 +894,10 @@
 "reldate": "2026-10-28",
 "slug": "TwiN/gatus"
 },
-"geeftlist": {},
+"geeftlist": {
+"lastact": "2026-10-23",
+"slug": "https://codeberg.org/nanawel/geeftlist"
+},
 "geneweb": {
 "gap_days": 616,
 "pushed": "2026-10-29",
@@ -794,7 +910,10 @@
 "reldate": "2026-10-25",
 "slug": "tess1o/geopulse"
 },
-"geovisio": {},
+"geovisio": {
+"lastact": "2026-05-05",
+"slug": "https://gitlab.commomototoro/api"
+},
 "gladys-assistant": {
 "gap_days": 11,
 "pushed": "2026-10-31",
@@ -802,6 +921,7 @@
 "slug": "gladysassistant/gladys"
 },
 "goaccess": {
+"lastact": "2026-10-28",
 "pushed": "2026-10-28",
 "reldate": "",
 "slug": "allinurl/goaccess"
@@ -818,7 +938,10 @@
 "reldate": "2026-07-06",
 "slug": "gocd/gocd"
 },
-"gogocarto": {},
+"gogocarto": {
+"reldate": "2017-01-16",
+"slug": "https://gitlab.com/Seballot/gogocarto"
+},
 "gollum": {
 "gap_days": 151,
 "pushed": "2025-11-24",
@@ -831,10 +954,14 @@
 "reldate": "2026-10-16",
 "slug": "gomuks/gomuks"
 },
-"gothub": {},
+"gothub": {
+"lastact": "2026-10-29",
+"slug": "https://codeberg.org/gothub/gothub"
+},
 "gramps-web": {
+"gap_days": 11,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-31",
 "slug": "gramps-project/Gramps.js"
 },
 "granary": {
@@ -850,6 +977,7 @@
 "slug": "graphhopper/graphhopper"
 },
 "graylog": {
+"lastact": "2026-10-31",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "Graylog2/graylog2-server"
@@ -884,6 +1012,7 @@
 "slug": "HabitRPG/habitica"
 },
 "hammond": {
+"lastact": "2022-07-25",
 "pushed": "2023-01-30",
 "reldate": "",
 "slug": "akhilrex/hammond"
@@ -930,6 +1059,7 @@
 "slug": "HiEventsDev/hi.events"
 },
 "histopad": {
+"lastact": "2024-10-21",
 "pushed": "2024-10-21",
 "reldate": "",
 "slug": "24eme/histopad"
@@ -959,9 +1089,10 @@
 "slug": "hudikhq/hoodik"
 },
 "horilla": {
+"gap_days": 25,
 "pushed": "",
-"reldate": "",
-"slug": "horilla-opensource/horilla.git"
+"reldate": "2026-10-21",
+"slug": "horilla-opensource/horilla"
 },
 "hortusfox": {
 "gap_days": 16,
@@ -970,6 +1101,7 @@
 "slug": "danielbrendel/hortusfox-web"
 },
 "huly": {
+"lastact": "2026-09-29",
 "pushed": "2026-09-29",
 "reldate": "",
 "slug": "hcengineering/huly-selfhost"
@@ -980,8 +1112,14 @@
 "reldate": "2026-05-10",
 "slug": "emersion/hydroxide"
 },
-"hypebot": {},
-"hyper-8": {},
+"hypebot": {
+"lastact": "2026-03-31",
+"slug": "https://codeberg.org/tante/hypebot"
+},
+"hyper-8": {
+"lastact": "2026-10-31",
+"slug": "https://codeberg.org/simonrepp/hyper8"
+},
 "hyperion": {
 "gap_days": 207,
 "pushed": "2026-10-31",
@@ -995,8 +1133,9 @@
 "slug": "hypothesis/h"
 },
 "hysteria": {
+"gap_days": 19,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-05",
 "slug": "apernet/hysteria"
 },
 "ibis": {
@@ -1011,14 +1150,19 @@
 "reldate": "2025-05-28",
 "slug": "ruven/iipsrv"
 },
-"inboxen": {},
+"inboxen": {
+"lastact": "2026-09-27",
+"slug": "https://codeberg.org/Inboxen/Inboxen"
+},
 "infcloud": {},
 "inginious": {
+"gap_days": 67,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-30",
 "slug": "UCL-INGI/INGInious"
 },
 "inventaire": {
+"lastact": "2025-05-16",
 "pushed": "2025-05-16",
 "reldate": "",
 "slug": "inventaire/inventaire"
@@ -1029,7 +1173,11 @@
 "reldate": "2026-10-27",
 "slug": "inventree/inventree"
 },
-"invidious-router": {},
+"invidious-router": {
+"gap_days": 206,
+"reldate": "2024-10-01",
+"slug": "https://gitlab.com/gaincoder/invidious-router"
+},
 "invoiceplane": {
 "gap_days": 11,
 "pushed": "2026-10-31",
@@ -1037,6 +1185,7 @@
 "slug": "InvoicePlane/InvoicePlane"
 },
 "ipfs": {
+"lastact": "2025-05-01",
 "pushed": "2025-05-01",
 "reldate": "",
 "slug": "ipfs/ipfs"
@@ -1059,16 +1208,22 @@
 "slug": "janhq/jan"
 },
 "js-bin": {
+"lastact": "2025-06-23",
 "pushed": "2025-06-23",
 "reldate": "",
 "slug": "jsbin/jsbin"
 },
 "karaoke-forever": {
+"gap_days": 36,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-02-15",
 "slug": "bhj/karaoke-forever"
 },
-"kasm": {},
+"kasm": {
+"gap_days": 0,
+"reldate": "2026-10-24",
+"slug": "kasmtech/KasmVNC"
+},
 "keeper-sh": {
 "gap_days": 2,
 "pushed": "2026-10-31",
@@ -1088,8 +1243,9 @@
 "slug": "khoj-ai/khoj"
 },
 "kill-the-newsletter": {
+"gap_days": 4,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-03",
 "slug": "leafac/kill-the-newsletter.com"
 },
 "kima": {
@@ -1110,7 +1266,10 @@
 "reldate": "2026-07-26",
 "slug": "TomBursch/kitchenowl"
 },
-"kitten": {},
+"kitten": {
+"lastact": "2026-10-30",
+"slug": "https://codeberg.org/kitten/app"
+},
 "klaxon": {
 "gap_days": 977,
 "pushed": "2026-10-30",
@@ -1118,11 +1277,15 @@
 "slug": "themarshallproject/klaxon"
 },
 "known": {
+"gap_days": 16,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-03-01",
 "slug": "idno/known"
 },
-"koha": {},
+"koha": {
+"lastact": "2026-10-30",
+"slug": "https://git.koha-community.org/Koha-community/Koha"
+},
 "koreader-sync-server": {
 "gap_days": 0,
 "pushed": "2026-09-23",
@@ -1153,7 +1316,9 @@
 "reldate": "2023-11-12",
 "slug": "jbl2024/latelier"
 },
-"lachariotte": {},
+"lachariotte": {
+"lastact": "2026-09-08"
+},
 "lacre": {},
 "lago": {
 "gap_days": 1,
@@ -1161,8 +1326,13 @@
 "reldate": "2026-10-07",
 "slug": "getlago/lago"
 },
-"lauti": {},
+"lauti": {
+"gap_days": 213,
+"reldate": "2026-10-16",
+"slug": "https://codeberg.org/Klasse-Methode/lauti"
+},
 "lesspass": {
+"lastact": "2026-10-14",
 "pushed": "2026-10-21",
 "reldate": "",
 "slug": "lesspass/lesspass"
@@ -1174,6 +1344,7 @@
 "slug": "libretime/libretime"
 },
 "librey": {
+"lastact": "2026-06-10",
 "pushed": "2026-06-10",
 "reldate": "",
 "slug": "Ahwxorg/LibreY"
@@ -1185,11 +1356,13 @@
 "slug": "Librum-Reader/Librum"
 },
 "lila": {
+"gap_days": 234,
 "pushed": "",
-"reldate": "",
+"reldate": "2017-08-31",
 "slug": "ornicar/lila"
 },
 "limejourney": {
+"lastact": "2026-09-08",
 "pushed": "2026-09-08",
 "reldate": "",
 "slug": "LimeJourney/limeJourney"
@@ -1201,13 +1374,15 @@
 "slug": "simjanos-dev/LinguaCafe"
 },
 "lingva-translate": {
+"lastact": "2023-01-13",
 "pushed": "2023-08-01",
 "reldate": "",
 "slug": "TheDavidDelta/lingva-translate"
 },
 "linkblocks": {
+"gap_days": 78,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-07-24",
 "slug": "raffomania/linkblocks"
 },
 "linkding": {
@@ -1224,11 +1399,13 @@
 "slug": "savonet/liquidsoap"
 },
 "lobe-chat": {
+"gap_days": 2,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-31",
 "slug": "lobehub/lobe-chat"
 },
 "locomotivecms": {
+"lastact": "2025-08-07",
 "pushed": "2025-08-07",
 "reldate": "",
 "slug": "locomotivecms/engine"
@@ -1240,6 +1417,7 @@
 "slug": "logseq/logseq"
 },
 "look-scanned": {
+"lastact": "2024-12-27",
 "pushed": "2025-03-18",
 "reldate": "",
 "slug": "lookscanned/lookscanned.io"
@@ -1250,7 +1428,11 @@
 "reldate": "2026-10-27",
 "slug": "loomio/loomio"
 },
-"loot": {},
+"loot": {
+"gap_days": 312,
+"reldate": "2026-10-22",
+"slug": "https://gitlab.com/loot-project/loot-app"
+},
 "loxya": {
 "gap_days": 30,
 "pushed": "2026-10-22",
@@ -1258,18 +1440,21 @@
 "slug": "Loxya/Loxya"
 },
 "lyrion-music-server": {
+"lastact": "2026-10-30",
 "pushed": "2026-10-30",
 "reldate": "",
 "slug": "LMS-Community/slimserver"
 },
 "madblog": {
+"lastact": "2026-10-27",
 "pushed": "2026-10-28",
 "reldate": "",
 "slug": "blacklight/madblog"
 },
 "maidsafe": {
+"gap_days": 0,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-02-19",
 "slug": "maidsafe/safe_network"
 },
 "mail-archiver": {
@@ -1279,8 +1464,9 @@
 "slug": "s1t5/mail-archiver"
 },
 "mailpile": {
+"gap_days": 589,
 "pushed": "2023-11-01",
-"reldate": "",
+"reldate": "2019-09-03",
 "slug": "mailpile/Mailpile"
 },
 "mailtrain": {
@@ -1289,6 +1475,7 @@
 "slug": "Mailtrain-org/mailtrain"
 },
 "majola": {
+"lastact": "2026-10-17",
 "pushed": "2026-10-17",
 "reldate": "",
 "slug": "krateng/maloja"
@@ -1300,8 +1487,9 @@
 "slug": "manyfold3d/manyfold"
 },
 "mataroa-blog": {
+"gap_days": 41,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-01-03",
 "slug": "mataroa-blog/mataroa"
 },
 "matrix-hookshot": {
@@ -1328,7 +1516,10 @@
 "reldate": "2026-10-16",
 "slug": "mautrix/meta"
 },
-"mayan-edms": {},
+"mayan-edms": {
+"lastact": "2026-10-25",
+"slug": "https://gitlab.com/mayan-edms/mayan-edms"
+},
 "mbin": {
 "gap_days": 65,
 "pushed": "2026-10-29",
@@ -1341,8 +1532,9 @@
 "slug": "mCaptcha/mCaptcha"
 },
 "mealie": {
+"gap_days": 23,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-17",
 "slug": "hay-kot/mealie"
 },
 "mediagoblin": {},
@@ -1352,7 +1544,9 @@
 "reldate": "2026-10-18",
 "slug": "pymedusa/Medusa"
 },
-"mememetadata": {},
+"mememetadata": {
+"lastact": "2025-06-02"
+},
 "meshchatx": {},
 "meshery": {
 "gap_days": 0,
@@ -1385,9 +1579,10 @@
 "slug": "dongdongbh/Mindwtr"
 },
 "minthcm": {
+"gap_days": 15,
 "pushed": "",
-"reldate": "",
-"slug": "minthcm/minthcm.git"
+"reldate": "2026-10-23",
+"slug": "minthcm/minthcm"
 },
 "misfin": {},
 "mkdocs": {
@@ -1401,8 +1596,11 @@
 "reldate": "2026-10-26",
 "slug": "modoboa/modoboa"
 },
-"mods-community-edition": {},
+"mods-community-edition": {
+"lastact": "2026-10-15"
+},
 "morss": {
+"lastact": "2023-06-27",
 "pushed": "2024-04-27",
 "reldate": "",
 "slug": "pictuga/morss"
@@ -1479,7 +1677,10 @@
 "reldate": "2026-10-31",
 "slug": "nocobase/nocobase"
 },
-"noe": {},
+"noe": {
+"lastact": "2026-10-31",
+"slug": "https://gitlab.com/alternatiba/noe"
+},
 "nostr": {
 "pushed": "2025-06-27",
 "reldate": "2020-12-27",
@@ -1498,14 +1699,16 @@
 "slug": "novosga/novosga"
 },
 "obico": {
+"lastact": "2026-10-02",
 "pushed": "2026-10-30",
 "reldate": "",
 "slug": "TheSpaghettiDetective/obico-server"
 },
 "obsidian": {
+"lastact": "2024-08-02",
 "pushed": "",
 "reldate": "",
-"slug": "alangrainger/share-note-self-hosted-backend"
+"slug": "CNYoki/share-note-self-hosted-backend"
 },
 "ocs-inventory-ng": {
 "gap_days": 33,
@@ -1523,7 +1726,10 @@
 "reldate": "2022-03-27",
 "slug": "ohmyform/ohmyform"
 },
-"omailgw": {},
+"omailgw": {
+"lastact": "2025-06-10",
+"slug": "https://framagit.orgCloudGirofle/omailgw-ui"
+},
 "omnitools": {
 "gap_days": 382,
 "pushed": "2026-10-24",
@@ -1567,6 +1773,7 @@
 "slug": "OpenCut-app/OpenCut"
 },
 "openhab": {
+"lastact": "2026-10-27",
 "pushed": "2026-10-27",
 "reldate": "",
 "slug": "openhab/openhab-webui"
@@ -1607,11 +1814,13 @@
 "slug": "Project-OSRM/osrm-backend"
 },
 "otobo": {
+"lastact": "2026-10-31",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "RotherOSS/otobo"
 },
 "ox-open-xchange": {
+"lastact": "2024-01-26",
 "pushed": "2026-03-20",
 "reldate": "",
 "slug": "open-xchange/appsuite-frontend"
@@ -1628,7 +1837,10 @@
 "reldate": "2026-10-23",
 "slug": "fosrl/pangolin"
 },
-"panoramax": {},
+"panoramax": {
+"lastact": "2026-10-31",
+"slug": "https://gitlab.comchandler.bing/ecoscan-5713844-deletion_scheduled-88347876"
+},
 "parenthese": {
 "gap_days": 0,
 "pushed": "2026-10-31",
@@ -1653,15 +1865,20 @@
 "reldate": "2026-10-28",
 "slug": "pglombardo/PasswordPusher"
 },
-"patchy": {},
+"patchy": {
+"lastact": "2026-10-21",
+"slug": "https://codeberg.org/Fijxu/patchy"
+},
 "peergos": {
+"lastact": "2026-10-30",
 "pushed": "2026-10-30",
 "reldate": "",
 "slug": "Peergos/Peergos"
 },
 "pelican-panel-panel": {
+"gap_days": 12,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-22",
 "slug": "pelican-dev/panel"
 },
 "peppermint": {
@@ -1695,13 +1912,15 @@
 "slug": "LINCnil/pia"
 },
 "picpeak": {
+"gap_days": 1,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-28",
 "slug": "the-luap/picpeak"
 },
 "picsur": {
+"gap_days": 0,
 "pushed": "",
-"reldate": "",
+"reldate": "2024-11-01",
 "slug": "rubikscraft/Picsur"
 },
 "pinchflat": {
@@ -1733,6 +1952,7 @@
 "slug": "makeplane/plane"
 },
 "plasmic": {
+"lastact": "2026-10-31",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "plasmicapp/plasmic"
@@ -1744,8 +1964,9 @@
 "slug": "plausible/analytics"
 },
 "pluto-jl": {
+"gap_days": 23,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-27",
 "slug": "fonsp/Pluto.jl"
 },
 "podfetch": {
@@ -1759,13 +1980,18 @@
 "reldate": "2026-10-25",
 "slug": "compdemocracy/polis"
 },
-"pollen": {},
+"pollen": {
+"gap_days": 1075,
+"reldate": "2020-04-28"
+},
 "polotno-studio": {
+"lastact": "2020-11-29",
 "pushed": "",
 "reldate": "",
-"slug": "polotno-project/polotno-studio"
+"slug": "HaseebLUMS/polotno-studio"
 },
 "posse-party": {
+"lastact": "2026-10-23",
 "pushed": "2026-10-23",
 "reldate": "",
 "slug": "searlsco/posse_party"
@@ -1777,11 +2003,15 @@
 "slug": "pritunl/pritunl"
 },
 "privategpt": {
+"gap_days": 15,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-06-18",
 "slug": "imartinez/privateGPT"
 },
-"pronouns-cc": {},
+"pronouns-cc": {
+"lastact": "2026-10-30",
+"slug": "https://codeberg.org/pronounscc/pronouns.cc"
+},
 "protonmail-bridge": {
 "gap_days": 20,
 "pushed": "2026-09-29",
@@ -1789,19 +2019,31 @@
 "slug": "ProtonMail/proton-bridge"
 },
 "protonmails-webclient": {
+"lastact": "2026-10-31",
 "pushed": "",
 "reldate": "",
 "slug": "ProtonMail/WebClient"
 },
-"proxigram": {},
-"psono": {},
+"proxigram": {
+"lastact": "2024-02-29",
+"slug": "https://codeberg.org/ThePenguinDev/Proxigram"
+},
+"psono": {
+"gap_days": 1,
+"reldate": "2026-10-30",
+"slug": "https://gitlab.com/psono/psono-server"
+},
 "puter": {
 "gap_days": 20,
 "pushed": "2026-10-31",
 "reldate": "2026-10-25",
 "slug": "HeyPuter/puter"
 },
-"pyfedi": {},
+"pyfedi": {
+"gap_days": 1,
+"reldate": "2026-10-31",
+"slug": "https://codeberg.org/rimu/pyfedi"
+},
 "qfieldcloud": {
 "gap_days": 37,
 "pushed": "2026-10-30",
@@ -1826,6 +2068,7 @@
 "slug": "bnordli/rftg"
 },
 "racktables": {
+"lastact": "2026-06-26",
 "pushed": "2026-06-26",
 "reldate": "",
 "slug": "RackTables/racktables"
@@ -1890,7 +2133,11 @@
 "reldate": "2026-10-29",
 "slug": "bestpractical/rt"
 },
-"restreamer": {},
+"restreamer": {
+"gap_days": 98,
+"reldate": "2024-09-13",
+"slug": "datarhei/restreamer"
+},
 "retroshare": {
 "gap_days": 991,
 "pushed": "2026-10-31",
@@ -1903,8 +2150,13 @@
 "reldate": "2026-10-22",
 "slug": "rommapp/romm"
 },
-"rs-short": {},
+"rs-short": {
+"gap_days": 236,
+"reldate": "2026-02-18",
+"slug": "https://git.lacontrevoie.fr/lacontrevoie/rs-short"
+},
 "rss-proxy": {
+"lastact": "2025-01-06",
 "pushed": "2025-01-06",
 "reldate": "",
 "slug": "damoeb/rss-proxy"
@@ -1928,12 +2180,16 @@
 "slug": "rybbit-io/rybbit"
 },
 "saltcorn": {
+"lastact": "2026-10-28",
 "pushed": "2026-10-30",
 "reldate": "",
 "slug": "saltcorn/saltcorn"
 },
 "sat": {},
-"savapage": {},
+"savapage": {
+"lastact": "2026-07-22",
+"slug": "https://gitlab.comjuniar1/savapage-i18n-en"
+},
 "scanopy": {
 "gap_days": 1,
 "pushed": "2026-10-31",
@@ -1974,6 +2230,7 @@
 "slug": "drakkan/sftpgo"
 },
 "shadowsocks": {
+"lastact": "2026-07-12",
 "pushed": "2026-07-31",
 "reldate": "",
 "slug": "shadowsocks/shadowsocks-org"
@@ -1985,11 +2242,13 @@
 "slug": "calibrain/shelfmark"
 },
 "shinken": {
+"lastact": "2024-04-26",
 "pushed": "",
 "reldate": "",
 "slug": "naparuba/shinken"
 },
 "shiny-server": {
+"lastact": "2026-10-30",
 "pushed": "2026-10-30",
 "reldate": "",
 "slug": "rstudio/shiny-server"
@@ -2007,6 +2266,7 @@
 "slug": "SickChill/sickchill"
 },
 "signal-proxy": {
+"lastact": "2026-10-26",
 "pushed": "2026-10-26",
 "reldate": "",
 "slug": "signalapp/Signal-TLS-Proxy"
@@ -2049,12 +2309,16 @@
 "slug": "solidtime-io/solidtime"
 },
 "sosse": {
+"lastact": "2026-03-24",
 "pushed": "2026-03-25",
 "reldate": "",
 "slug": "biolds/sosse"
 },
 "sourcehut": {},
-"spacebar": {},
+"spacebar": {
+"lastact": "2026-10-16",
+"slug": "spacebarchat/spacebarchat"
+},
 "sphinx": {
 "gap_days": 0,
 "pushed": "2026-10-29",
@@ -2084,11 +2348,13 @@
 "slug": "benweet/stackedit"
 },
 "stingle-api": {
+"lastact": "2026-10-24",
 "pushed": "2026-10-24",
 "reldate": "",
 "slug": "stingle/stingle-api"
 },
 "stoat": {
+"lastact": "2026-10-07",
 "pushed": "2026-10-07",
 "reldate": "",
 "slug": "stoatchat/self-hosted"
@@ -2112,13 +2378,15 @@
 "slug": "strapi/strapi"
 },
 "strava-statistics": {
+"gap_days": 5,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-31",
 "slug": "robiningelbrecht/strava-statistics"
 },
 "suitecrm": {
+"gap_days": 134,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-07-31",
 "slug": "salesagility/SuiteCRM"
 },
 "sunshine": {
@@ -2153,6 +2421,7 @@
 "slug": "nuxsmin/sysPass"
 },
 "tabby-web-service": {
+"lastact": "2026-01-01",
 "pushed": "2026-01-01",
 "reldate": "",
 "slug": "Eugeny/tabby-web"
@@ -2164,11 +2433,13 @@
 "slug": "tahoe-lafs/tahoe-lafs"
 },
 "taiga": {
+"lastact": "2026-10-30",
 "pushed": "",
 "reldate": "",
 "slug": "kaleidos-ventures/taiga-back"
 },
 "takahe": {
+"lastact": "2024-08-28",
 "pushed": "2024-08-28",
 "reldate": "",
 "slug": "jointakahe/takahe"
@@ -2215,11 +2486,13 @@
 "slug": "gravitational/teleport"
 },
 "tenzu": {
+"lastact": "2026-10-26",
 "pushed": "2026-10-26",
 "reldate": "",
 "slug": "BIRU-Scop/tenzu-back"
 },
 "terminus": {
+"lastact": "2026-10-30",
 "pushed": "",
 "reldate": "",
 "slug": "usetrmnl/byos_hanami"
@@ -2231,13 +2504,15 @@
 "slug": "Termix-SSH/Termix"
 },
 "teslamate": {
+"gap_days": 24,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-23",
 "slug": "adriankumpf/teslamate"
 },
 "textbee": {
+"gap_days": 33,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-24",
 "slug": "vernu/textbee"
 },
 "theia-ide": {
@@ -2247,6 +2522,7 @@
 "slug": "eclipse-theia/theia"
 },
 "tibillet": {
+"lastact": "2026-10-31",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "TiBillet/Lespass"
@@ -2276,6 +2552,7 @@
 "slug": "tmate-io/tmate"
 },
 "tnyr-me": {
+"lastact": "2026-08-07",
 "pushed": "2026-08-07",
 "reldate": "",
 "slug": "Sevi-py/tnyr.me"
@@ -2292,9 +2569,10 @@
 "slug": "tourgaze/tourgaze"
 },
 "trek": {
+"gap_days": 3,
 "pushed": "",
-"reldate": "",
-"slug": "mauriceboe/TREK?ref=selfh.st"
+"reldate": "2026-10-31",
+"slug": "mauriceboe/TREK"
 },
 "trivy": {
 "gap_days": 6,
@@ -2302,7 +2580,10 @@
 "reldate": "2026-10-21",
 "slug": "aquasecurity/trivy"
 },
-"tryton": {},
+"tryton": {
+"lastact": "2026-10-15",
+"slug": "https://foss.heptapod.nettryton/hatch-tryton"
+},
 "tube-archivist": {
 "gap_days": 60,
 "pushed": "2026-10-25",
@@ -2322,9 +2603,10 @@
 "slug": "tutao/tutanota"
 },
 "twake-app": {
+"gap_days": 147,
 "pushed": "",
-"reldate": "",
-"slug": "TwakeApp/Twake.git"
+"reldate": "2023-03-23",
+"slug": "TwakeApp/Twake"
 },
 "twenty": {
 "gap_days": -1,
@@ -2344,13 +2626,17 @@
 "reldate": "2026-10-29",
 "slug": "dream-num/univer"
 },
-"upmpdcli": {},
+"upmpdcli": {
+"lastact": "2026-10-31"
+},
 "urlaubsverwaltung": {
+"gap_days": 2,
 "pushed": "",
-"reldate": "",
-"slug": "urlaubsverwaltung/urlaubsverwaltung.git"
+"reldate": "2026-10-23",
+"slug": "urlaubsverwaltung/urlaubsverwaltung"
 },
 "urlwatch": {
+"lastact": "2026-07-10",
 "pushed": "2026-07-10",
 "reldate": "",
 "slug": "thp/urlwatch"
@@ -2392,8 +2678,9 @@
 "slug": "gabboman/wafrn"
 },
 "webhook-site": {
+"gap_days": 765,
 "pushed": "",
-"reldate": "",
+"reldate": "2023-06-21",
 "slug": "fredsted/webhook.site"
 },
 "webstudio": {
@@ -2426,10 +2713,14 @@
 "reldate": "2024-09-17",
 "slug": "pluja/whishper"
 },
-"wikisuite": {},
+"wikisuite": {
+"lastact": "2026-08-29",
+"slug": "https://gitlab.comsamuelmbabhazi/wikisuite-script-for-wikisuite-package"
+},
 "wildduck": {
+"gap_days": 8,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-28",
 "slug": "nodemailer/wildduck"
 },
 "windmill": {
@@ -2446,8 +2737,9 @@
 "slug": "wishthis/wishthis"
 },
 "workadventure": {
+"gap_days": 4,
 "pushed": "",
-"reldate": "",
+"reldate": "2026-10-27",
 "slug": "thecodingmachine/workadventure"
 },
 "wrp": {
@@ -2468,14 +2760,19 @@
 "reldate": "2026-10-30",
 "slug": "xibosignage/xibo-cms"
 },
-"xonotic": {},
+"xonotic": {
+"lastact": "2026-10-31",
+"slug": "https://gitlab.comchandler.bing/ecoscan-73434-deletion_scheduled-88346096"
+},
 "yggdrasil": {
 "gap_days": 126,
 "pushed": "2026-10-24",
 "reldate": "2026-10-24",
 "slug": "yggdrasil-network/yggdrasil-go"
 },
-"yolo-jukebox": {},
+"yolo-jukebox": {
+"lastact": "2020-07-29"
+},
 "your-spotify": {
 "gap_days": 54,
 "pushed": "2026-07-10",
@@ -2488,8 +2785,12 @@
 "reldate": "2026-10-29",
 "slug": "ulsklyc/yuvomi"
 },
-"zaibu": {},
+"zaibu": {
+"lastact": "2026-06-09",
+"slug": "https://codeberg.org/nanawel/zaibu"
+},
 "zammad": {
+"lastact": "2026-10-30",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "zammad/zammad"
@@ -2501,6 +2802,7 @@
 "slug": "koenkk/zigbee2mqtt"
 },
 "znc": {
+"lastact": "2026-10-31",
 "pushed": "2026-10-31",
 "reldate": "",
 "slug": "znc/znc"
@@ -2512,6 +2814,7 @@
 "slug": "ZoneMinder/zoneminder"
 },
 "zotero": {
+"lastact": "2021-08-26",
 "pushed": "2021-08-26",
 "reldate": "",
 "slug": "foxsen/zotero-selfhost"
