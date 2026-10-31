@@ -126,6 +126,8 @@ def main():
         if v.get("upstream"):
             bits.append(f" [upstream]({v['upstream']})")
         added = v.get("added_date")
+        if a.get("stars"):
+            bits.append(f" · ★{a['stars']:,}")
         if added:
             bits.append(f" · requested {datetime.date.fromtimestamp(added)}")
         if a.get("reldate"):
