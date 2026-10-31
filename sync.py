@@ -69,6 +69,7 @@ def main():
         wish = tomllib.loads(r.read().decode())
 
     categorize = tomllib.loads((ROOT / "categorize.toml").read_text()) if (ROOT / "categorize.toml").exists() else {}
+    difficulty = tomllib.loads((ROOT / "difficulty.toml").read_text()) if (ROOT / "difficulty.toml").exists() else {}
     seen_file = ROOT / "seen.txt"
     seen = set(seen_file.read_text().split()) if seen_file.exists() else set()
     act_file = ROOT / "activity.json"
@@ -112,7 +113,9 @@ def main():
         "",
         "Stability tags (age of latest release, or latest commit where a forge has no releases): "
         "untagged = released within 1y · `slow-releases` = no release for 1-2y · "
-        "`quiet` = 2-5y · `dormant` = 5y+ · `unknown` = no public release/commit data.",
+        "`quiet` = 2-5y · `dormant` = 5y+ · `unknown` = no public release/commit data. "
+        "Difficulty tag (`easy`/`regular`/`complex`) = expected packaging effort "
+        "(heuristic from upstream stack + hand review; editable in `difficulty.toml`).",
         "",
     ]
 
@@ -131,6 +134,9 @@ def main():
         elif a.get("lastact"):
             bits.append(f" · last commit {a['lastact']}")
         bits.append(stability(a, now))
+        diff = difficulty.get(k)
+        if diff:
+            bits.append(f" `{diff}`")
         return "".join(bits)
 
     uncat = sorted((k for k in wish if k not in categorize),
