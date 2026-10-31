@@ -39,21 +39,16 @@ def fetch(url, token=None):
 
 
 def stability(entry, now):
-    """Cheap maturity tag from release dates; commit date as fallback. Advisory only."""
-    rel = entry.get("reldate")
-    if not rel:
-        la = entry.get("lastact")
-        if not la:
-            return " `unknown`"
-        age = (now - datetime.date.fromisoformat(la)).days
-        return " `dormant`" if age > 1825 else (" `quiet`" if age > 730 else "")
-    gap = entry.get("gap_days")
-    age = (now - datetime.date.fromisoformat(rel)).days
+    """Maturity tag = age of latest release (commit date as fallback). Advisory only."""
+    date = entry.get("reldate") or entry.get("lastact")
+    if not date:
+        return " `unknown`"
+    age = (now - datetime.date.fromisoformat(date)).days
     if age > 1825:
         return " `dormant`"
     if age > 730:
         return " `quiet`"
-    if gap and gap >= 180:
+    if age > 365:
         return " `slow-releases`"
     return ""
 
@@ -115,9 +110,9 @@ def main():
         '2. To categorize one, move its line into `categorize.toml` (e.g. `myapp = "multimedia"`) and commit.',
         "3. The Action regenerates this README within a day (or run `python sync.py` manually).",
         "",
-        "Stability tags: `slow-releases` = recent releases, ≥180d apart · `quiet` = nothing for 2-5y · "
-        "`dormant` = nothing for 5y+ · `unknown` = no public release/commit data. "
-        "Repos without tagged releases are judged by last commit date.",
+        "Stability tags (age of latest release, or latest commit where a forge has no releases): "
+        "untagged = released within 1y · `slow-releases` = no release for 1-2y · "
+        "`quiet` = 2-5y · `dormant` = 5y+ · `unknown` = no public release/commit data.",
         "",
     ]
 
