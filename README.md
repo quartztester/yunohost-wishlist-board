@@ -418,7 +418,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Parenthèse** — Living family tree: photos, videos and voices on every person, shared with your family by link. [upstream](https://github.com/IliesAllali/parenthese) · ★89 · requested 2026-10-29 · last release 2026-10-29 `regular`
 - **Photon for Lemmy** — Clean and modern UI for Lemmy instances [upstream](https://github.com/Xyphyn/photon) · ★558 · requested 2024-05-23 · last release 2026-07-30 (13d gap) `regular`
 - **Picpeak** — Photo sharing platform for photographers & events. [upstream](https://github.com/the-luap/picpeak) · requested 2025-11-09 · last release 2026-10-28 (1d gap) `regular`
-- **Picsur** — Image hosting [upstream](https://github.com/rubikscraft/Picsur) · requested 2023-09-25 · last release 2024-11-01 `slow-releases` `regular`
+- **Picsur** — Image hosting [upstream](https://github.com/rubikscraft/Picsur) · requested 2023-09-25 · last release 2024-11-01 `quiet` `regular`
 - **pinchflat** — Your next YouTube media manager [upstream](https://github.com/kieraneglin/pinchflat) · ★5,435 · requested 2024-10-28 · last release 2025-09-26 (112d gap) `slow-releases` `regular`
 - **Pinry** — Tiling image board [upstream](https://github.com/pinry/pinry/) · ★3,431 · requested 2023-09-25 · last release 2024-10-03 `quiet` `regular`
 - **Pluto.jl** — Reactive notebooks like Pluto.jl offer several advantages that make them appealing for data analysis [upstream](https://github.com/fonsp/Pluto.jl) · requested 2024-10-13 · last release 2026-10-27 (23d gap) `regular`
@@ -573,4 +573,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-01 · 515 upstream entries · 0 new this run._
+_Last synced 2026-11-02 · 515 upstream entries · 0 new this run._
