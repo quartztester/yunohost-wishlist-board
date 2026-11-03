@@ -573,4 +573,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-02 · 515 upstream entries · 0 new this run._
+_Last synced 2026-11-03 · 515 upstream entries · 0 new this run._
