@@ -291,7 +291,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **tryton** — Business software, ERP [upstream](https://foss.heptapod.net/tryton/) · requested 2023-10-29 · last commit 2026-10-15 `complex`
 - **Twenty** — CRM with extensible Object model [upstream](https://github.com/twentyhq/twenty/) · ★60,217 · requested 2025-02-11 · last release 2026-10-30 (-1d gap) `complex`
 - **Urlaubsverwaltung** — Web application to manage absences / vacations [upstream](https://github.com/urlaubsverwaltung/urlaubsverwaltung.git) · ★301 · requested 2025-04-05 · last release 2026-10-23 (2d gap) `regular`
-- **Yuvomi** — A privacy-focused family planner that bundles up to 19 household management modules. [upstream](https://github.com/ulsklyc/yuvomi) · ★2,175 · requested 2026-09-13 · last release 2026-10-29 (1d gap) `regular`
+- **Yuvomi** — Privacy-focused family planner: calendar, tasks, shopping, meals, budget, health and more [upstream](https://github.com/ulsklyc/yuvomi) · ★2,175 · requested 2026-09-13 · last release 2026-10-29 (1d gap) `regular`
 - **Zaibu** — App permettant de noter vos dégustations de breuvages (actuellement bières et vins principalement). [upstream](https://codeberg.org/nanawel/zaibu) · ★1 · requested 2025-02-20 · last commit 2026-06-09 `regular`
 - **Zammad** — Helpdesk/customer support system [upstream](https://github.com/zammad/zammad) · ★6,060 · requested 2023-09-25 · last commit 2026-10-30 `regular`
 
@@ -573,4 +573,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-05 · 515 upstream entries · 0 new this run._
+_Last synced 2026-11-06 · 515 upstream entries · 0 new this run._
