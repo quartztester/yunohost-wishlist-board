@@ -301,7 +301,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **AnonymousOverflow** — It allows you to view StackOverflow threads. A frontend. [upstream](https://github.com/httpjamesm/AnonymousOverflow) · requested 2026-03-31 · last release 2026-08-25 (9d gap) `regular`
 - **AptCacher NG** — A caching proxy for Debian-based (and others) packages [upstream](https://salsa.debian.org/blade/apt-cacher-ng/-/tree/debian/sid) · requested 2026-07-23 · last commit 2026-10-11 `regular`
 - **Armbian Hastebin** — Pastebin server with ANSI color rendering. (Go rewrite of Hastebin ANSI.) [upstream](https://github.com/armbian/hastebin-ansi) · ★6 · requested 2026-10-29 · last commit 2026-09-14 `easy`
-- **ass** — ShareX upload server written in Node.js. [upstream](https://github.com/tycrek/ass) · ★665 · requested 2023-09-25 · last commit 2025-11-08 `regular`
+- **ass** — ShareX upload server written in Node.js. [upstream](https://github.com/tycrek/ass) · ★665 · requested 2023-09-25 · last commit 2025-11-08 `slow-releases` `regular`
 - **CheckUp** — Distributed, lock-free, self-hosted health checks and status pages [upstream](https://github.com/sourcegraph/checkup) · ★3,462 · requested 2023-09-25 · last release 2017-07-28 (358d gap) `dormant` `easy`
 - **chibisafe** — Modern file uploader service written in TypeScript that just works [upstream](https://github.com/chibisafe/chibisafe) · ★2,804 · requested 2024-08-21 · last release 2026-10-22 (3d gap) `regular`
 - **ClearFlask** — Ideation Tool for Feedback, Roadmap and Announcements [upstream](https://github.com/clearflask/clearflask) · ★450 · requested 2023-10-03 · last release 2026-10-31 (4d gap) `regular`
@@ -573,4 +573,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-08 · 515 upstream entries · 0 new this run._
+_Last synced 2026-11-09 · 515 upstream entries · 0 new this run._
