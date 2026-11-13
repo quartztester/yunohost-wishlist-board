@@ -15,11 +15,9 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Sintoniza** — Podcast synchronization server based on the gPodder "protocol". [upstream](https://github.com/manualdousuario/sintoniza/) · ★47 · requested 2026-03-27 · last release 2026-10-21 `regular`
 - **WRP** — A browser-in-browser "proxy" server that allows to use vintage web browsers on the modern web. [upstream](https://github.com/tenox7/wrp) · ★1,308 · requested 2025-10-22 · last release 2026-04-23 (1d gap) `easy`
 
-## Synchronization (18)
+## Synchronization (16)
 
-- **Anki Sync Server** — a personal Anki server [upstream](https://github.com/ankicommunity/anki-sync-server) · requested 2023-09-25 · last release 2022-10-14 (269d gap) `quiet` `regular`
 - **Booklore** — multi-user digital library with smart shelves, auto metadata, Kobo & KOReader sync, BookDrop imports [upstream](https://github.com/booklore-app/booklore) · ★1,329 · requested 2025-11-22 · last release 2026-09-19 (84d gap) `complex`
-- **EteSync** — The Etebase server (so you can run your own) [upstream](https://github.com/etesync/server) · ★1,777 · requested 2023-09-25 · last commit 2024-07-12 `quiet` `regular`
 - **Filen Webdav** — A package to run a WebDAV server for single or multiple Filen accounts [upstream](https://github.com/FilenCloudDienste/filen-webdav) · ★142 · requested 2025-04-05 · last release 2025-07-06 (107d gap) `slow-releases` `regular`
 - **Hoodik** — e2ee cloud storage solution written in Rust [upstream](https://github.com/hudikhq/hoodik) · ★1,547 · requested 2025-12-18 · last release 2026-10-22 (2d gap) `easy`
 - **InfCloud** — A contacts, calendar and tasks web client for CalDAV and CardDAV [upstream](https://inf-it.com/open-source/download/InfCloud_0.13.1.zip) · requested 2023-09-25 `unknown` `regular`
@@ -36,7 +34,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Taskchampion Sync Server** — Allows syncing of todo tasks managed by Taskwarrior. cp. https://taskwarrior.org/docs/sync/ [upstream](https://github.com/GothenburgBitFactory/taskchampion-sync-server) · ★197 · requested 2026-06-06 · last release 2026-06-10 `easy`
 - **xBrowserSync** — A bookmark sync tool, with browser plugins and mobile clients available [upstream](https://github.com/xbrowsersync/api) · ★855 · requested 2023-09-25 · last release 2021-04-05 (341d gap) `dormant` `regular`
 
-## Publishing (44)
+## Publishing (42)
 
 - **Amusewiki** — A library-oriented wiki engine and a powerful authoring, archiving and publishing platform. [upstream](https://github.com/melmothx/amusewiki) · ★221 · requested 2023-12-19 · last commit 2026-10-27 `regular`
 - **Asqatasun** — Website analyser for web accessibility and SEO [upstream](https://gitlab.com/asqatasun/Asqatasun) · ★17 · requested 2023-09-25 · last release 2026-05-06 (53d gap) `regular`
@@ -52,7 +50,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Docusaurus** — Static site generator/SPA to build documentations [upstream](https://github.com/facebook/docusaurus) · requested 2023-09-25 · last release 2026-07-10 (71d gap) `regular`
 - **EmDash** — A CMS based on Astro; Ideal for MicroSites and Blogging. A WordPress Alternative [upstream](https://github.com/emdash-cms/emdash) · ★14,075 · requested 2026-08-11 · last release 2026-10-29 `regular`
 - **Federated wiki** — Farm for fedwiki sites [upstream](https://github.com/fedwiki/wiki-server) · ★157 · requested 2023-09-25 · last commit 2026-10-06 `regular`
-- **Foutain ink** — Self-hostable web3 alternative to Medium, Substack, and Mirror. [upstream](https://github.com/fountain-ink/app) · ★64 · requested 2026-08-19 · last commit 2026-02-05 `regular`
 - **Gatsby** — Build blazing fast, modern apps and websites with React [upstream](https://github.com/gatsbyjs/gatsby) · ★55,922 · requested 2023-09-25 · last release 2026-02-10 (14d gap) `regular`
 - **GoatCounter** — privacy-friendly web analytics [upstream](https://github.com/arp242/goatcounter) · ★6,126 · requested 2023-09-25 · last release 2025-12-15 (189d gap) `easy`
 - **Gollum** — A simple Git-powered wiki [upstream](https://github.com/gollum/gollum) · ★14,337 · requested 2023-09-25 · last release 2024-12-23 (151d gap) `slow-releases` `regular`
@@ -73,7 +70,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **QWC2** — A react and openlayers-based web UI to publish and display QGIS desktop projects. [upstream](https://github.com/qgis/qwc2) · ★384 · requested 2023-09-25 · last release 2026-10-30 (3d gap) `regular`
 - **Read the Docs** — A comprehensive platform for automatic building, versioning, and hosting of documentation. [upstream](https://github.com/readthedocs/readthedocs.org) · ★8,405 · requested 2024-02-03 · last release 2026-10-27 (6d gap) `regular`
 - **Rybbit** — Google Analytics alternative. [upstream](https://github.com/rybbit-io/rybbit) · ★13,195 · requested 2026-08-19 · last release 2026-10-24 (41d gap) `regular`
-- **savapage** — Open Print Portal [upstream](https://gitlab.com/savapage) · requested 2026-01-07 · last commit 2026-07-22 `regular`
 - **Scanopy** — Clean network diagrams - scan any network and get live, auto-updating documentation in minutes [upstream](https://github.com/scanopy/scanopy) · ★5,921 · requested 2026-03-01 · last release 2026-10-30 (1d gap) `easy`
 - **Scribe** — An alternative frontend to Medium [upstream](https://git.sr.ht/~edwardloveall/scribe) · requested 2023-09-25 `unknown` `regular`
 - **Semantic MediaWiki** — Store and query data withxadin MediaWiki's pages [upstream](https://github.com/SemanticMediaWiki/SemanticMediaWiki) · ★632 · requested 2023-09-25 · last release 2026-09-28 (12d gap) `regular`
@@ -83,7 +79,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Webstudio** — Advanced website builder like Webflow or Framer with connected CMS capability. [upstream](https://github.com/webstudio-is/webstudio) · ★9,134 · requested 2025-12-18 · last release 2026-10-30 (4d gap) `regular`
 - **WikiSuite** — An integrated enterprise solution [upstream](https://gitlab.com/wikisuite) · requested 2023-09-25 · last commit 2026-08-29 `complex`
 
-## Communication (69)
+## Communication (65)
 
 - **AgentJ** — Antispam which asks the sender (or recipient) to validate the e-mail [upstream](https://github.com/Probesys/agentj) · ★34 · requested 2025-02-11 · last release 2026-10-22 (1d gap) `regular`
 - **AliasVault** — Privacy-first password and email alias manager. [upstream](https://github.com/aliasvault/aliasvault) · ★3,354 · requested 2026-01-08 · last release 2026-10-14 `regular`
@@ -98,7 +94,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Chatterbox** — Embedded live chat for customer service [upstream](https://github.com/vector-im/chatterbox) · requested 2023-09-25 · last release 2022-10-17 (76d gap) `quiet` `regular`
 - **Chatwoot** — Customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud [upstream](https://github.com/chatwoot/chatwoot) · ★38,681 · requested 2023-09-25 · last release 2026-10-24 (3d gap) `regular`
 - **Chirpstack** — LoRaWan Server [upstream](https://github.com/chirpstack/chirpstack) · ★1,125 · requested 2026-05-05 · last release 2026-10-21 (8d gap) `easy`
-- **Congressus** — A meeting management tool with decision-making based on a voting pool [upstream](https://github.com/PartiPirate/congressus) · ★58 · requested 2023-09-25 · last commit 2022-04-02 `quiet` `regular`
 - **Continuwuity** — Continuwuity, the official community driven continuation of conduwuit & Conduit, focusing on user ex [upstream](https://forgejo.ellis.link/continuwuation/continuwuity/) · ★116 · requested 2026-07-23 · last release 2026-09-28 (12d gap) `regular`
 - **Cytube** — Synchronizes video playback for multiple users with a real-time chat. [upstream](https://github.com/calzoneman/sync) · ★1,587 · requested 2025-02-03 · last release 2017-05-18 (258d gap) `dormant` `regular`
 - **DavMail** — Gateway from OWA and O365 to IMAP, POP, and CalDav for email and calendars [upstream](https://github.com/mguessan/davmail) · ★774 · requested 2023-09-25 · last commit 2026-10-30 `regular`
@@ -111,7 +106,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **gomuks** — A Matrix client written in Go. [upstream](https://github.com/gomuks/gomuks) · ★1,729 · requested 2026-06-02 · last release 2026-10-16 (30d gap) `complex`
 - **Greenlight** — A really simple end-user interface for your BigBlueButton server [upstream](https://github.com/bigbluebutton/greenlight) · ★850 · requested 2023-09-25 · last release 2026-09-09 `complex`
 - **Haven** — Discord alternative with all it's functionalities [upstream](https://github.com/ancsemi/Haven) · ★793 · requested 2026-08-19 · last release 2026-10-31 (1d gap) `regular`
-- **Hydroxide** — A third party, open-source Proton Mail CardDAV, IMAP and SMTP bridge. [upstream](https://github.com/emersion/hydroxide) · ★2,170 · requested 2024-08-17 · last release 2026-05-10 (109d gap) `complex`
 - **Inboxen** — A service that provides you with an infinite number of unique inboxes. [upstream](https://codeberg.org/Inboxen/Inboxen) · ★8 · requested 2025-02-04 · last commit 2026-09-27 `regular`
 - **Keila** — Newsletter campaigns and sign-up forms creation [upstream](https://github.com/pentacent/keila) · ★2,260 · requested 2025-01-24 · last release 2026-10-31 (2d gap) `regular`
 - **Kill the newsletter** — Convert email newsletters to RSS feeds [upstream](https://github.com/leafac/kill-the-newsletter.com) · requested 2023-09-25 · last release 2026-10-03 (4d gap) `regular`
@@ -120,7 +114,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **LimeJourney** — Platform for targeted audience segmentation, personalized messaging, and AI-driven insights. [upstream](https://github.com/LimeJourney/limeJourney) · ★130 · requested 2025-07-28 · last commit 2026-09-08 `regular`
 - **Lobe Chat** — LLMs/AI chat framework, supports multiple local and remote AI Providers, modals (Vision/TTS) and plugin system [upstream](https://github.com/lobehub/lobe-chat) · requested 2024-04-19 · last release 2026-10-31 (2d gap) `complex`
 - **Mail Archiver** — A comprehensive solution for archiving, searching, and exporting emails. [upstream](https://github.com/s1t5/mail-archiver/) · ★2,234 · requested 2026-01-08 · last release 2026-10-11 (18d gap) `regular`
-- **Mailpile** — A modern, fast email client with user-friendly encryption and privacy features [upstream](https://github.com/mailpile/Mailpile) · ★8,806 · requested 2023-09-25 · last release 2019-09-03 (589d gap) `dormant` `complex`
 - **Mailtrain** — Newsletter app [upstream](https://github.com/Mailtrain-org/mailtrain) · ★5,755 · requested 2023-09-25 · last release 2021-06-09 `dormant` `complex`
 - **mautrix-gmessages** — A Matrix-Google Messages puppeting bridge. [upstream](https://github.com/mautrix/gmessages) · ★195 · requested 2025-09-17 · last release 2026-10-16 (30d gap) `complex`
 - **mautrix-googlechat** — A Matrix-Google Chat puppeting bridge [upstream](https://github.com/mautrix/googlechat) · ★127 · requested 2025-07-28 · last release 2024-07-16 (286d gap) `quiet` `complex`
@@ -134,7 +127,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **OX Open-Xchange** — Linux groupware solution [upstream](https://github.com/open-xchange/appsuite-frontend) · ★18 · requested 2023-09-25 · last commit 2024-01-26 `quiet` `complex`
 - **PHPList** — Email marketing manager: create, send, integrate, and analyze email campaigns and newsletters. [upstream](https://github.com/phpList/phplist3) · ★879 · requested 2023-09-25 · last release 2026-08-09 (-1d gap) `regular`
 - **ProtonMail Bridge** — Use Proton Mail with your email client [upstream](https://github.com/ProtonMail/proton-bridge) · ★1,573 · requested 2023-09-25 · last release 2026-09-29 (20d gap) `complex`
-- **ProtonMail’s WebClient** — Monorepo hosting the proton web clients [upstream](https://github.com/ProtonMail/WebClient) · requested 2023-09-25 · last commit 2026-10-31 `complex`
 - **pyfedi** — ieFed – a link aggregator, a forum, a hub of social interaction and information, built for the fediv [upstream](https://codeberg.org/rimu/pyfedi) · ★266 · requested 2025-04-26 · last release 2026-10-31 (1d gap) `regular`
 - **Schleuder Web** — A web-interface to manage Schleuder, an encrypting mailing list manager with remailing-capabilities. [upstream](https://0xacab.org/schleuder/schleuder-web) · requested 2024-10-11 `unknown` `regular`
 - **Seatsurfing** — Desk and meeting room booking solution [upstream](https://github.com/seatsurfing/seatsurfing) · ★316 · requested 2025-01-24 · last release 2026-10-31 (1d gap) `easy`
@@ -155,7 +147,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **znc** — IRC Bouncer [upstream](https://github.com/znc/znc) · ★2,128 · requested 2023-10-29 · last commit 2026-10-31 `easy`
 - **Zulip** — Team chat that helps teams stay productive and focused. [upstream](https://github.com/zulip/zulip) · ★26,150 · requested 2023-09-25 · last release 2026-10-30 (39d gap) `regular`
 
-## Office (62)
+## Office (59)
 
 - **Access to Memory (AtoM)** — Standards-based archival description and access in a multilingual, multi-repository environment. [upstream](https://github.com/artefactual/atom) · ★304 · requested 2023-09-25 · last release 2026-08-24 `regular`
 - **Aktivisda** — Web application to create visuals using an organization's graphic charter. [upstream](https://framagit.org/aktivisda/aktivisda) · requested 2024-07-12 · last commit 2026-01-06 `regular`
@@ -193,14 +185,11 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **NOE** — Votre QG événementiel pour gérer votre planning de formations, votre bénévolat et vos participant.es [upstream](https://gitlab.com/alternatiba/noe) · requested 2024-05-12 · last commit 2026-10-31 `regular`
 - **obico** — 3d-printing platform for controlling and monitoring 3d-printers [upstream](https://github.com/TheSpaghettiDetective/obico-server) · ★1,923 · requested 2026-06-18 · last commit 2026-10-02 `regular`
 - **Obsidian** — Alternative to Notion [upstream](https://github.com/alangrainger/share-note-self-hosted-backend) · requested 2024-10-16 · last commit 2024-08-02 `quiet` `regular`
-- **officelife** — Manages everything employees do in a company. From projects to holidays to 1:1s to teams... [upstream](https://github.com/officelifehq/officelife) · ★945 · requested 2023-10-23 · last release 2021-09-16 `dormant` `regular`
-- **OhMyForm** — Alternative to TypeForm, TellForm, or Google Forms [upstream](https://github.com/ohmyform/ohmyform) · ★2,889 · requested 2023-09-25 · last release 2022-03-27 `quiet` `regular`
 - **OpenSign** — DocuSign alternative, for signing and annotating PDF files [upstream](https://github.com/OpenSignLabs/OpenSign) · ★7,205 · requested 2024-01-02 · last release 2026-10-30 (4d gap) `regular`
 - **ospreadsheet** — Standalone spreadsheet for the web (initially for Odoo but somewhat independent?) [upstream](https://github.com/odoo/o-spreadsheet) · ★297 · requested 2024-09-25 · last release 2026-10-29 (1d gap) `regular`
 - **Password Pusher** — Communicate sensitive information over the web [upstream](https://github.com/pglombardo/PasswordPusher) · ★3,239 · requested 2025-12-18 · last release 2026-10-28 `regular`
 - **Phorge** — Platform for collaborating, managing, organizing and reviewing software development projects [upstream](https://we.phorge.it/source/phorge/) · requested 2023-09-26 `unknown` `regular`
 - **Pixeleye** — Visual review & testing platform [upstream](https://github.com/pixeleye-io/pixeleye) · ★134 · requested 2024-08-17 · last release 2024-06-18 `quiet` `regular`
-- **Polotno Studio** — Online Design Editor. Alternative to Canva. [upstream](https://github.com/polotno-project/polotno-studio) · ★1 · requested 2024-10-15 · last commit 2020-11-29 `dormant` `regular`
 - **PrivateGPT** — AI project that allows you to ask questions to your documents using the power of LLMs. [upstream](https://github.com/imartinez/privateGPT) · requested 2023-10-29 · last release 2026-06-18 (15d gap) `complex`
 - **Rackula** — Drag-and-drop rack layout designer [upstream](https://github.com/RackulaLives/Rackula) · ★1,772 · requested 2026-05-04 · last release 2026-10-13 (12d gap) `regular`
 - **rawgraph** — Create custom vector-based visualizations [upstream](https://github.com/rawgraphs/rawgraphs-app) · ★9,049 · requested 2023-10-03 · last release 2024-01-26 (829d gap) `quiet` `regular`
@@ -220,10 +209,9 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Wisemapping** — An online mind mapping editor [upstream](https://bitbucket.org/wisemapping/wisemapping-open-source) · requested 2023-09-25 `unknown` `regular`
 - **wishthis** — modern wishlist platform to create, manage and view your wishes [upstream](https://github.com/wishthis/wishthis) · ★310 · requested 2025-11-23 · last release 2025-03-10 (56d gap) `slow-releases` `regular`
 
-## Productivity & management (72)
+## Productivity & management (64)
 
-- **Active Pieces** — open-core no-code automation, similar to n8n [upstream](https://github.com/activepieces/activepieces) · ★25,312 · requested 2025-02-11 · last release 2026-10-29 `regular`
-- **Activepieces** — Activepieces is a automation builder, designed to be extensible through a type-safe pieces framework [upstream](https://github.com/activepieces/activepieces) · ★25,312 · requested 2023-10-04 · last release 2026-10-29 `regular`
+- **Activepieces** — Open-core no-code automation builder, similar to n8n, extensible through a type-safe pieces framework [upstream](https://github.com/activepieces/activepieces) · ★25,312 · requested 2023-10-04 · last release 2026-10-29 `regular`
 - **Akaunting** — Manage payments/invoices/expenses [upstream](https://github.com/akaunting/akaunting) · ★10,259 · requested 2023-09-25 · last release 2026-10-27 (40d gap) `regular`
 - **Archivematica** — Mature digital preservation system designed to maintain standards-based, long-term access to collections of digital objects. [upstream](https://github.com/artefactual/archivematica) · ★523 · requested 2023-09-25 · last release 2025-09-26 (129d gap) `slow-releases` `complex`
 - **Automatisch** — Workflow automation without coding [upstream](https://github.com/automatisch/automatisch) · ★14,005 · requested 2023-10-29 · last release 2025-08-08 (262d gap) `slow-releases` `regular`
@@ -247,14 +235,10 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Geeftlist** — Collaborative gift list management [upstream](https://codeberg.org/nanawel/geeftlist) · ★4 · requested 2024-08-17 · last commit 2026-10-23 `regular`
 - **Geneweb** — Genealogy in a web interface [upstream](https://github.com/geneweb/geneweb) · ★408 · requested 2023-09-25 · last release 2025-12-25 (616d gap) `regular`
 - **Gramps Web** — Collaborative genealogy, based on and interoperable with Gramps. [upstream](https://github.com/gramps-project/Gramps.js) · requested 2023-12-27 · last release 2026-10-31 (11d gap) `regular`
-- **Hammond** — Vehicle expense tracking system [upstream](https://github.com/akhilrex/hammond) · ★588 · requested 2023-10-31 · last commit 2022-07-25 `quiet` `regular`
-- **Helpy** — A modern helpdesk customer support app, including knowledgebase, discussions and tickets [upstream](https://github.com/helpyio/helpy) · ★2,467 · requested 2023-09-25 · last release 2020-02-28 `dormant` `regular`
-- **HistoPad** — Log pads (etherpad) and archiving them in a git repository [upstream](https://github.com/24eme/histopad) · ★5 · requested 2023-09-25 · last commit 2024-10-21 `quiet` `complex`
 - **Horilla** — Human Resource Management System designed to streamline HR processes and enhance organizational efficiency [upstream](https://github.com/horilla-opensource/horilla.git) · requested 2025-05-28 · last release 2026-10-21 (25d gap) `regular`
 - **InvenTree** — Inventory management system using Django/python with a nice interface. [upstream](https://github.com/inventree/inventree) · ★7,779 · requested 2023-11-20 · last release 2026-10-27 `regular`
 - **InvoicePlane** — Manage invoices, clients and payments. [upstream](https://github.com/InvoicePlane/InvoicePlane) · ★3,268 · requested 2023-09-25 · last release 2026-08-28 (11d gap) `regular`
 - **Kitchenowl** — Grocery list and recipe manager [upstream](https://github.com/TomBursch/kitchenowl) · ★3,795 · requested 2023-09-25 · last release 2026-07-26 (52d gap) `regular`
-- **L'atelier** — A project management tool [upstream](https://github.com/jbl2024/latelier) · ★94 · requested 2023-09-25 · last release 2023-11-12 (357d gap) `quiet` `regular`
 - **LaChariotte** — Outil pour organiser des commandes groupées [upstream](https://framagit.org/la-chariotte/la-chariotte) · requested 2025-05-24 · last commit 2026-09-08 `regular`
 - **Linkding** — Minimal, fast, and easy bookmark manager [upstream](https://github.com/sissbruecker/linkding) · ★11,370 · requested 2023-10-25 · last release 2026-09-13 (25d gap) `regular`
 - **loot** — track and share contributions and their rewards within a community [upstream](https://gitlab.com/loot-project/loot-app) · ★7 · requested 2025-02-08 · last release 2026-10-22 (312d gap) `regular`
@@ -267,16 +251,13 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **NovoSGA** — Support queue management system [upstream](https://github.com/novosga/novosga) · ★281 · requested 2023-10-06 · last release 2026-10-22 (37d gap) `regular`
 - **OCS Inventory NG** — Open computers and software inventory is an asset management solution. [upstream](https://github.com/OCSInventory-NG/OCSInventory-ocsreports) · ★255 · requested 2023-10-04 · last release 2026-08-25 (33d gap) `regular`
 - **OnMyShelf** — Manage personal collections with both presets and customs fields. [upstream](https://github.com/onmyshelf/docker) · ★3 · requested 2025-07-08 · last release 2025-07-19 (126d gap) `slow-releases` `easy`
-- **Open Support** — Support tickets for customers [upstream](https://github.com/opensupports/opensupports) · ★1,036 · requested 2026-01-07 · last release 2022-01-11 `quiet` `regular`
 - **Otobo** — Ticketsystem, fork of OTRS (which is not free anymore) [upstream](https://github.com/RotherOSS/otobo) · ★340 · requested 2023-10-10 · last commit 2026-10-31 `regular`
 - **Participy** — Allows you to interact with an audience through various types of questions, polls, quizzes… [upstream](https://github.com/particify/arsnova-server) · ★67 · requested 2025-11-23 · last release 2026-06-14 (265d gap) `regular`
-- **Peppermint** — A central hub for your help desk. A powerfully easy system for tracking, prioritising, and solving customer support tickets [upstream](https://github.com/Peppermint-Lab/peppermint) · ★3,161 · requested 2023-10-10 · last release 2024-11-14 `slow-releases` `regular`
 - **personal-management-system** — Your web application for managing personal data. [upstream](https://github.com/Volmarg/personal-management-system) · ★4,193 · requested 2023-09-25 · last release 2026-09-27 (155d gap) `regular`
 - **Polis** — Gathers and analyzes what large groups of people think in their own words. Creates shared decisions. [upstream](https://github.com/compdemocracy/polis) · ★1,221 · requested 2023-12-14 · last release 2026-10-25 `regular`
 - **Pollen** — Sondages et votations avec de nombreux modes de scrutins (Condorcet, Borda, Jugement majoritaire…) [upstream](https://gitlab.nuiton.org/chorem/pollen) · requested 2025-04-05 · last release 2020-04-28 (1075d gap) `dormant` `regular`
 - **pritunl** — Distributed enterprise vpn server built using the OpenVPN protocol [upstream](https://github.com/pritunl/pritunl) · ★5,038 · requested 2024-05-12 · last release 2026-09-27 (81d gap) `complex`
 - **racktables** — A datacenter asset management system [upstream](https://github.com/RackTables/racktables) · ★813 · requested 2023-09-25 · last commit 2026-06-26 `regular`
-- **Raindrop** — All-in-one bookmark manager [upstream](https://github.com/raindropio/app) · ★1,618 · requested 2023-09-25 · last release 2026-10-26 `regular`
 - **Request Tracker** — An enterprise-grade issue tracking system [upstream](https://github.com/bestpractical/rt) · ★1,167 · requested 2023-09-25 · last release 2026-10-29 `complex`
 - **solidtime** — Modern time tracking app [upstream](https://github.com/solidtime-io/solidtime) · ★9,087 · requested 2026-06-17 · last release 2026-10-21 (2d gap) `regular`
 - **Spliit** — Track and split expenses between people [upstream](https://github.com/spliit-app/spliit) · ★3,033 · requested 2025-07-12 · last release 2026-10-11 (6d gap) `regular`
@@ -295,13 +276,12 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Zaibu** — App permettant de noter vos dégustations de breuvages (actuellement bières et vins principalement). [upstream](https://codeberg.org/nanawel/zaibu) · ★1 · requested 2025-02-20 · last commit 2026-06-09 `regular`
 - **Zammad** — Helpdesk/customer support system [upstream](https://github.com/zammad/zammad) · ★6,060 · requested 2023-09-25 · last commit 2026-10-30 `regular`
 
-## Small utilities (47)
+## Small utilities (42)
 
 - **4get** — Proxy search engine [upstream](https://git.lolcat.ca/lolcat/4get) · ★2 · requested 2025-08-23 · last commit 2026-10-31 `regular`
 - **AnonymousOverflow** — It allows you to view StackOverflow threads. A frontend. [upstream](https://github.com/httpjamesm/AnonymousOverflow) · requested 2026-03-31 · last release 2026-08-25 (9d gap) `regular`
 - **AptCacher NG** — A caching proxy for Debian-based (and others) packages [upstream](https://salsa.debian.org/blade/apt-cacher-ng/-/tree/debian/sid) · requested 2026-07-23 · last commit 2026-10-11 `regular`
 - **Armbian Hastebin** — Pastebin server with ANSI color rendering. (Go rewrite of Hastebin ANSI.) [upstream](https://github.com/armbian/hastebin-ansi) · ★6 · requested 2026-10-29 · last commit 2026-09-14 `easy`
-- **ass** — ShareX upload server written in Node.js. [upstream](https://github.com/tycrek/ass) · ★665 · requested 2023-09-25 · last commit 2025-11-08 `slow-releases` `regular`
 - **CheckUp** — Distributed, lock-free, self-hosted health checks and status pages [upstream](https://github.com/sourcegraph/checkup) · ★3,462 · requested 2023-09-25 · last release 2017-07-28 (358d gap) `dormant` `easy`
 - **chibisafe** — Modern file uploader service written in TypeScript that just works [upstream](https://github.com/chibisafe/chibisafe) · ★2,804 · requested 2024-08-21 · last release 2026-10-22 (3d gap) `regular`
 - **ClearFlask** — Ideation Tool for Feedback, Roadmap and Announcements [upstream](https://github.com/clearflask/clearflask) · ★450 · requested 2023-10-03 · last release 2026-10-31 (4d gap) `regular`
@@ -310,7 +290,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Distribution** — The toolkit to pack, ship, store, and deliver container content [upstream](https://github.com/distribution/distribution) · ★10,669 · requested 2023-09-25 · last release 2026-09-24 (145d gap) `easy`
 - **Domain Watchdog** — Your companion in the quest for domain names searching. [upstream](https://github.com/maelgangloff/domain-watchdog) · ★404 · requested 2026-08-20 · last release 2026-10-24 (181d gap) `regular`
 - **Dreeve** — It's a dashboard for sport stats [upstream](https://github.com/dreeveapp/dreeve) · ★2,192 · requested 2026-07-24 · last release 2026-10-31 (5d gap) `regular`
-- **Farside** — A redirecting service for FOSS alternative frontends [upstream](https://github.com/benbusby/farside) · ★936 · requested 2023-09-25 · last release 2025-01-29 (359d gap) `slow-releases` `easy`
 - **fdroidserver** — A tool for creating a custom Android F-Droid repository to manage builds, indexes, [...] [upstream](https://gitlab.com/fdroid/fdroidserver) · ★447 · requested 2025-01-24 · last commit 2026-10-30 `regular`
 - **FlareSolverr** — Proxy server to bypass Cloudflare protection [upstream](https://github.com/FlareSolverr/FlareSolverr) · ★16,093 · requested 2023-09-25 · last release 2026-09-12 (108d gap) `regular`
 - **Framaestro_hub** — Online service aggregator hub [upstream](https://github.com/mozilla/togetherjs) · requested 2023-09-25 · last commit 2026-07-14 `regular`
@@ -321,10 +300,8 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Homepage** — A highly customizable application dashboard with integrations for over 100 services [upstream](https://github.com/gethomepage/homepage) · ★33,465 · requested 2024-04-21 · last release 2026-10-23 (6d gap) `regular`
 - **Hypothes.is** — Annotation server (and client) to create and share highlights and notes [upstream](https://github.com/hypothesis/h) · ★3,190 · requested 2023-09-25 · last release 2019-11-05 (1183d gap) `dormant` `complex`
 - **Hysteria** — A powerful, lightning fast and censorship resistant proxy [upstream](https://github.com/apernet/hysteria) · requested 2023-10-27 · last release 2026-10-05 (19d gap) `regular`
-- **Invidious Router** — Routes requests to different Invidious instances [upstream](https://gitlab.com/gaincoder/invidious-router) · ★2 · requested 2024-02-27 · last release 2024-10-01 (206d gap) `quiet` `regular`
 - **Klaxon** — Easily create alerts for changes on the web [upstream](https://github.com/themarshallproject/klaxon) · ★683 · requested 2023-09-25 · last release 2026-03-09 (977d gap) `easy`
 - **Kutt.it** — Link shortener [upstream](https://github.com/thedevs-network/kutt) · ★11,184 · requested 2023-11-18 · last release 2026-07-05 (48d gap) `regular`
-- **Lingva Translate** — Alternative front-end for Google Translate [upstream](https://github.com/TheDavidDelta/lingva-translate) · ★1,852 · requested 2023-09-25 · last commit 2023-01-13 `quiet` `regular`
 - **Logseq** — Knowledge management and collaboration tool for organizing and structuring notes [upstream](https://github.com/logseq/logseq/) · ★45,437 · requested 2026-01-08 · last release 2026-10-25 (17d gap) `regular`
 - **Loomio** — A collaborative decision making tool [upstream](https://github.com/loomio/loomio/) · ★2,624 · requested 2023-09-25 · last release 2026-10-27 (3d gap) `regular`
 - **organizr** — Organizr allows you to setup "Tabs" that will be loaded all in one webpage [upstream](https://github.com/causefx/Organizr) · ★5,821 · requested 2023-10-04 · last release 2019-02-26 (293d gap) `dormant` `regular`
@@ -340,40 +317,34 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **shadowsocks** — A SOCKS5 proxy to protect your Internet traffic [upstream](https://github.com/shadowsocks/shadowsocks-org) · ★1,046 · requested 2023-09-25 · last commit 2026-07-12 `easy`
 - **Signal Proxy** — Fight censorship and bypass traffic securely to the Signal service [upstream](https://github.com/signalapp/Signal-TLS-Proxy) · ★1,284 · requested 2023-09-25 · last commit 2026-10-26 `easy`
 - **Sosse** — Selenium based search engine and crawler with offline archiving [upstream](https://github.com/biolds/sosse) · ★409 · requested 2025-09-08 · last commit 2026-03-24 `regular`
-- **Stackedit** — In-browser Markdown editor [upstream](https://github.com/benweet/stackedit) · ★23,098 · requested 2023-09-25 · last release 2019-07-02 `dormant` `regular`
 - **Strava Statistics** — Provide dashboard with various stats and charts from Strava [upstream](https://github.com/robiningelbrecht/strava-statistics) · requested 2025-03-02 · last release 2026-10-31 (5d gap) `regular`
 - **tnyr.me** — Privacy-focused URL shortener with seamless encryption. [upstream](https://github.com/Sevi-py/tnyr.me) · ★157 · requested 2025-07-27 · last commit 2026-08-07 `regular`
 - **VoyantServer** — Runs a webUI and backend for VoyantTools, a textual concordance and analysis java app. [upstream](https://github.com/voyanttools/VoyantServer) · ★105 · requested 2023-12-14 · last release 2026-08-19 `regular`
 
-## Reading (14)
+## Reading (12)
 
 - **BiblioGenius** — Scan and organize your books. Lend and borrow with the people you trust. [upstream](https://codeberg.org/bibliogenius) · requested 2026-09-04 `unknown` `regular`
 - **Feedbin** — Simple, fast and nice looking RSS reader [upstream](https://github.com/feedbin/feedbin) · ★3,782 · requested 2023-10-29 · last commit 2026-10-17 `regular`
 - **Grimmory** — An independent community fork of Booklore. [upstream](https://github.com/grimmory-tools/grimmory) · ★4,637 · requested 2026-05-02 · last release 2026-09-21 (5d gap) `regular`
-- **Inventaire** — A collaborative resource mapper powered by open-knowledge, starting with books! [upstream](https://github.com/inventaire/inventaire) · ★462 · requested 2023-09-25 · last commit 2025-05-16 `slow-releases` `complex`
 - **KindleEar** — Generate EPUB/MOBI from RSS and send it to Kindle/E-readers on a schedule basis. [upstream](https://github.com/cdhigh/KindleEar) · ★2,882 · requested 2025-01-19 · last release 2024-12-25 (36d gap) `slow-releases` `regular`
 - **Koha** — Library system [upstream](https://git.koha-community.org/Koha-community/Koha) · ★8 · requested 2023-09-25 · last commit 2026-10-30 `regular`
 - **Librum** — Read and manage your e-books on any device. [upstream](https://github.com/Librum-Reader/Librum) · ★5,319 · requested 2023-11-07 · last release 2024-03-29 (29d gap) `quiet` `easy`
 - **linkhut** — social bookmarking that expose rss feeds per tag or combination of tags [upstream](https://sr.ht/~mlb/linkhut/) · requested 2026-03-07 `unknown` `regular`
-- **morss** — RSS generator with UI to click on the items instead of having to find the xpath reading code. [upstream](https://github.com/pictuga/morss) · ★790 · requested 2024-11-14 · last commit 2023-06-27 `quiet` `regular`
 - **NewsBlur** — RSS reader [upstream](https://github.com/samuelclay/NewsBlur) · ★7,676 · requested 2023-09-25 · last release 2026-08-11 (146d gap) `easy`
 - **Proxigram** — Front-end for Instagram, providing also RSS [upstream](https://codeberg.org/ThePenguinDev/Proxigram) · requested 2023-10-23 · last commit 2024-02-29 `quiet` `regular`
 - **RSS-proxy** — Create an RSS or ATOM feed of almost any website, just by analyzing just the static HTML structure. [upstream](https://github.com/damoeb/rss-proxy) · ★1,925 · requested 2023-09-25 · last commit 2025-01-06 `slow-releases` `regular`
 - **RSSPub** — Fetch RSS feeds and turns into EPUB file, specially useful for e-readers and e-ink devices. [upstream](https://github.com/harshit181/RSSPub) · ★138 · requested 2026-03-27 · last release 2026-10-11 (5d gap) `easy`
 - **Suwayomi** — A manga reader server that runs extensions built for Tachiyomi [upstream](https://github.com/Suwayomi/Suwayomi-Server) · ★7,981 · requested 2024-03-05 · last release 2026-09-30 (78d gap) `regular`
 
-## Education (3)
+## Education (2)
 
 - **Dataverse** — Find, share, cite, and preserve research data [upstream](https://github.com/IQSS/dataverse) · ★1,078 · requested 2023-09-25 · last release 2026-10-08 (21d gap) `complex`
 - **LinguaCafe** — Web-based tool suite to help learning foreign languages [upstream](https://github.com/simjanos-dev/LinguaCafe) · ★1,477 · requested 2025-05-02 · last release 2025-04-13 (24d gap) `slow-releases` `regular`
-- **Zotero** — collect, organize, annotate, cite, and share research [upstream](https://github.com/foxsen/zotero-selfhost) · ★217 · requested 2023-12-26 · last commit 2021-08-26 `dormant` `easy`
 
-## Multimedia (66)
+## Multimedia (60)
 
-- **Amara** — Collaborative translation of subtitles for videosCollaborative translation of subtitles for videos [upstream](https://gitlab.com/hanklank/amara-archive) · ★4 · requested 2023-09-25 · last commit 2020-01-14 `dormant` `regular`
 - **Azuracast** — A Web Radio Management Suite [upstream](https://github.com/AzuraCast/AzuraCast) · ★4,081 · requested 2023-09-25 · last release 2023-08-17 (118d gap) `quiet` `regular`
 - **Bandwagon** — Fediverse platform for publishing music (like Funkwhale) [upstream](https://github.com/EmissarySocial/bandwagon) · ★58 · requested 2026-05-06 · last commit 2026-10-30 `easy`
-- **Beatbump** — An alternative frontend for YouTube Music [upstream](https://github.com/snuffyDev/Beatbump) · ★1,130 · requested 2023-09-25 · last release 2023-12-10 `quiet` `regular`
 - **bitmagnet** — BitTorrent indexer, DHT crawler and search engine [upstream](https://github.com/bitmagnet-io/bitmagnet) · ★4,442 · requested 2024-02-28 · last release 2026-05-21 (444d gap) `easy`
 - **Blynk** — Blynk library for embedded hardware. Works with Arduino, ESP8266, Raspberry Pi, Intel Edison/Galileo, LinkIt ONE, Particle Core/Photon, Energia, ARM mbed, etc. [upstream](https://github.com/blynkkk/blynk-library) · requested 2023-09-25 · last release 2026-10-06 (133d gap) `regular`
 - **Butler** — Spotify alternative, download music with yt-dlp, organize it into a personal library, and stream it [upstream](https://github.com/DGuckert/Butler/) · ★76 · requested 2026-08-06 · last release 2026-08-10 (6d gap) `regular`
@@ -386,13 +357,10 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Danbooru** — A taggable image board written in Rails [upstream](https://github.com/danbooru/danbooru) · ★2,841 · requested 2025-09-17 · last release 2016-06-14 (47d gap) `dormant` `regular`
 - **Decidim** — Participatory democracy, citizen participation and open government for cities and organizations. [upstream](https://github.com/decidim/decidim) · ★1,843 · requested 2025-06-01 · last release 2026-10-27 `regular`
 - **Downtify** — Download audio files from Spotify [upstream](https://github.com/henriquesebastiao/downtify) · ★828 · requested 2025-09-17 · last release 2026-10-31 (2d gap) `regular`
-- **Ente** — Safe home for your photos and 2FA codes. Alternative to Google Photos and Apple Photos. [upstream](https://github.com/ente-io/ente) · requested 2024-03-04 · last release 2026-10-30 (3d gap) `regular`
-- **Ente Photos** — A privacy-focused photo and video backup solution "with end-to-end encryption instead Immich" [upstream](https://github.com/ente-io/ente) · requested 2025-06-11 · last release 2026-10-30 (3d gap) `regular`
-- **Ephemera** — Search and download books from your girl's favorite archive. [upstream](https://github.com/OrwellianEpilogue/ephemera) · ★23 · requested 2026-01-08 · last commit 2025-11-12 `regular`
+- **Ente** — Safe home for your photos and 2FA codes with end-to-end encryption. Alternative to Google Photos and Apple Photos. [upstream](https://github.com/ente-io/ente) · requested 2024-03-04 · last release 2026-10-30 (3d gap) `regular`
 - **Feishin** — a music web player that connect with server backends like jellifin or navidrome [upstream](https://github.com/jeffvli/feishin) · ★10,296 · requested 2025-09-22 · last release 2026-09-15 (1d gap) `regular`
 - **Fireshare** — Fireshare provides a way for you to share any videos you have through a unique link. [upstream](https://github.com/ShaneIsrael/fireshare) · requested 2025-05-13 · last release 2026-10-12 (11d gap) `regular`
 - **Framamemes** — Générateur de mèmes (et de description) à partir d'images sous licence libre. [upstream](https://framagit.org/framasoft/fun/framamemes) · requested 2025-04-02 · last commit 2026-10-23 `regular`
-- **GeoVisio** — Self-hosting geo-located street pictures solution [upstream](https://gitlab.com/geovisio) · requested 2023-11-11 · last commit 2026-05-05 `regular`
 - **Hyper 8** — Hyper 8 lets you create video sites, from single videos to playlists to entire video archives. [upstream](https://codeberg.org/simonrepp/hyper8/) · ★111 · requested 2025-01-24 · last commit 2026-10-31 `regular`
 - **IIPImage** — Zoomserver for gigapixel images [upstream](https://github.com/ruven/iipsrv) · ★326 · requested 2025-09-17 · last release 2025-05-28 (632d gap) `slow-releases` `easy`
 - **iSponsorBlockTV** — Bloqueur de publicité youtube TV App [upstream](https://github.com/dmunozv04/iSponsorBlockTV) · ★6,595 · requested 2026-01-15 · last release 2026-08-21 (38d gap) `regular`
@@ -426,7 +394,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Restreamer** — Live video streaming from any source to any destination, even multiple destinations. [upstream](https://github.com/datarhei) · ★5,233 · requested 2025-04-05 · last release 2024-09-13 (98d gap) `quiet` `easy`
 - **Shelfmark** — Web interface for searching and downloading books and audiobooks from multiple sources. [upstream](https://github.com/calibrain/shelfmark) · ★4,100 · requested 2026-03-01 · last release 2026-10-31 (7d gap) `regular`
 - **sickchill** — Automatic TV shows downloader [upstream](https://github.com/SickChill/sickchill) · ★2,446 · requested 2023-11-24 · last release 2026-10-08 (21d gap) `regular`
-- **Spodcast** — Makes RSS feeds for Spotify podcasts, with episodes as mp3, making them usable with podcast apps [upstream](https://github.com/Yetangitu/Spodcast) · ★374 · requested 2023-10-21 · last release 2022-07-20 `quiet` `regular`
 - **Stingle API Server** — Gallery/Camera application with private encrypted Backup and Sync function [upstream](https://github.com/stingle/stingle-api) · ★16 · requested 2023-10-23 · last commit 2026-10-24 `regular`
 - **TourGaze** — Showing a 3D map with a GPX file uploaded, with many other features. Ride stats, Photos, Meteo, etc. [upstream](https://github.com/tourgaze/tourgaze) · ★18 · requested 2026-07-24 · last release 2026-10-11 `regular`
 - **Tube Archivist** — Tube Archivist indexes and organizes archived YouTube videos through a convenient web interface. [upstream](https://github.com/tubearchivist/tubearchivist) · ★8,561 · requested 2024-07-13 · last release 2026-10-25 (60d gap) `regular`
@@ -437,18 +404,15 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Yolo jukebox** — comeoninternet.ogg [upstream](https://framagit.org/framasoft/fun/yolo-cowboy) · requested 2024-05-14 · last commit 2020-07-29 `dormant` `regular`
 - **your_spotify** — Spotify tracking dashboard [upstream](https://github.com/Yooooomi/your_spotify) · ★4,617 · requested 2023-09-25 · last release 2026-05-24 (54d gap) `regular`
 
-## Social media (24)
+## Social media (19)
 
 - **Analytodon** — Analytics for your mastodon accounts [upstream](https://github.com/blazer82/analytodon) · ★26 · requested 2025-11-22 · last release 2026-10-19 (167d gap) `regular`
-- **BirdsiteLive** — ActivityPub bridge from Twitter [upstream](https://github.com/NicolasConstant/BirdsiteLive) · ★447 · requested 2023-11-07 · last release 2023-03-17 `quiet` `complex`
-- **BrandCraft** — BrandCraft simplifies the process of managing and scheduling content across multiple social media. [upstream](https://github.com/sevleo/BrandCraft) · ★14 · requested 2025-08-20 · last commit 2025-08-27 `slow-releases` `easy`
 - **Commonplace** — Link collection manager for the open social web. Organise links by topic, invite co [upstream](https://framagit.org/dynamicskillset/commonplace) · requested 2026-04-08 · last release 2026-04-23 `regular`
 - **dotmakeup** — Allows following Twitter/X and Instagram accounts via activitypub [upstream](https://sr.ht/~cloutier/dotmakeup/) · requested 2026-06-18 `unknown` `regular`
 - **Exo platform** — Modern intranet, social network, community management platform, collaboration platform and digital workplace [upstream](https://github.com/exoplatform/) · requested 2023-10-29 `unknown` `complex`
 - **Flus** — Flus brings together feed aggregation, read-later lists and social bookmarking. [upstream](https://github.com/flusio/Flus) · ★178 · requested 2026-10-04 · last release 2026-10-28 (16d gap) `regular`
 - **fx** — microblogging and blogroll, everything that is needed for a barebones POSSE system [upstream](https://github.com/rikhuijzer/fx) · requested 2025-09-11 · last release 2026-10-24 (7d gap) `regular`
 - **Granary** — 💬 The social web translator [upstream](https://github.com/snarfed/granary) · ★516 · requested 2023-09-25 · last release 2026-10-18 (108d gap) `regular`
-- **Guppe** — Social groups for the fediverse. Connect and meet new people based on shared interests [upstream](https://github.com/immers-space/guppe) · ★209 · requested 2025-04-05 · last release 2023-05-26 `quiet` `regular`
 - **Hollo** — A federated microblogging software for single-users [upstream](https://github.com/fedify-dev/hollo) · ★496 · requested 2026-01-12 · last release 2026-10-24 `regular`
 - **Hometown** — A Mastodon fork with local-only posting, support for more content types, and other features and tweaks. [upstream](https://github.com/hometown-fork/hometown) · ★820 · requested 2023-09-25 · last release 2026-10-29 (14d gap) `regular`
 - **hypebot** — Mastodon bot that boosts trending posts from other instances into your timeline [upstream](https://codeberg.org/tante/hypebot) · ★11 · requested 2025-02-11 · last commit 2026-03-31 `regular`
@@ -458,15 +422,12 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Nostr** — Censorship-resistant alternative to Twitter [upstream](https://github.com/nostr-protocol/nostr) · ★12,122 · requested 2023-09-25 · last release 2020-12-27 `dormant` `regular`
 - **POSSE Party** — POSSE Party is a web application for crossposting content from your site to social media platforms. [upstream](https://github.com/searlsco/posse_party/) · ★215 · requested 2026-01-05 · last commit 2026-10-23 `regular`
 - **SocialHome** — A federated personal profile [upstream](https://github.com/jaywink/socialhome) · ★379 · requested 2023-09-25 · last release 2018-08-29 (17d gap) `dormant` `complex`
-- **Takahē** — An efficient ActivityPub Server, for small installs with multiple domains [upstream](https://github.com/jointakahe/takahe) · ★1,171 · requested 2023-09-25 · last commit 2024-08-28 `quiet` `complex`
 - **Ticker** — Publish ticket on several website or some social media accounts [upstream](https://github.com/systemli/ticker) · ★31 · requested 2026-01-07 · last release 2026-10-29 (28d gap) `easy`
 - **tootgroup** — fediverse bot that re-toots content of a group of accounts on its own account [upstream](https://github.com/oe4dns/tootgroup.py) · ★23 · requested 2024-07-12 · last release 2024-10-11 `quiet` `regular`
 - **Vernissage** — Flickr like pour le fédiverse [upstream](https://github.com/VernissageApp/VernissageServer) · ★73 · requested 2025-03-11 · last release 2026-10-14 (43d gap) `regular`
-- **Wafrn** — A social media website similar to Tumblr. Social-oriented blogging with tags and quote replies. [upstream](https://github.com/gabboman/wafrn) · ★284 · requested 2025-04-14 · last release 2025-08-13 `slow-releases` `regular`
 
-## Games (17)
+## Games (15)
 
-- **DD Builder** — Outil offrant des aides à la création d'un scénario pour le Maître du Jeu d'une partie de D&D [upstream](https://gitlab.com/Birdiz/ddbuilder) · ★2 · requested 2025-02-11 · last commit 2024-02-15 `quiet` `regular`
 - **Digibuzzer** — pour jouer autour d'un buzzer connecté [upstream](https://codeberg.org/ladigitale/digibuzzer) · ★3 · requested 2023-11-02 · last release 2026-10-12 (2d gap) `regular`
 - **fishnet** — Distributed Stockfish analysis for lichess.org [upstream](https://github.com/niklasf/fishnet) · requested 2023-09-25 · last release 2026-10-21 (14d gap) `regular`
 - **Habitica** — A habit tracker app which treats your goals like a Role Playing Game. [upstream](https://github.com/HabitRPG/habitica) · ★14,277 · requested 2023-09-25 · last release 2026-10-28 `regular`
@@ -478,7 +439,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Netrunner** — A card game in a cyberpunk universe [upstream](https://github.com/mtgred/netrunner) · ★986 · requested 2023-09-25 · last release 2026-09-04 (9d gap) `complex`
 - **Pelican Panel (Panel)** — Game server control panel, successor to Pterodactyl [upstream](https://github.com/pelican-dev/panel) · requested 2025-03-02 · last release 2026-10-22 (12d gap) `regular`
 - **Puter** — Internet OS Personal cloud that houses all your files, apps, and games. [upstream](https://github.com/HeyPuter/puter) · ★44,040 · requested 2024-08-17 · last release 2026-10-25 (20d gap) `regular`
-- **Race for the galaxy** — Play Race for the Galaxy against AI [upstream](https://github.com/bnordli/rftg) · ★193 · requested 2023-09-25 · last release 2016-11-30 `dormant` `easy`
 - **romm** — Scan, enrich, and browse your game collection with a clean and responsive interface. [upstream](https://github.com/rommapp/romm) · ★14,180 · requested 2025-07-11 · last release 2026-10-22 (12d gap) `regular`
 - **Sunshine** — Stream installed games and programs to other devices. [upstream](https://github.com/LizardByte/Sunshine) · ★42,848 · requested 2025-10-22 · last release 2026-10-28 `easy`
 - **Tee Worlds** — An online multiplayer game. Battle with up to 16 players in a variety of game modes. [upstream](https://github.com/teeworlds/teeworlds) · ★2,654 · requested 2024-07-12 · last release 2020-04-19 `dormant` `easy`
@@ -513,7 +473,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Webhook.site** — Easily test HTTP webhooks with this handy tool that displays requests instantly. [upstream](https://github.com/fredsted/webhook.site) · requested 2023-09-25 · last release 2023-06-21 (765d gap) `quiet` `regular`
 - **Xibo** — A FLOSS digital signage solution [upstream](https://github.com/xibosignage/xibo-cms) · ★516 · requested 2023-09-25 · last release 2026-10-30 (8d gap) `regular`
 
-## System tools (39)
+## System tools (36)
 
 - **3XUI** — VPN panel for Xray servers supporting VMess, VLESS, Trojan, Shadowsocks, WireGuard, traffic/IP limit [upstream](https://github.com/MHSanaei/3x-ui) · ★49,022 · requested 2026-03-07 · last release 2026-10-25 (123d gap) `easy`
 - **Airflow** — Programmatically author, schedule and monitor workflows [upstream](https://github.com/apache/airflow/) · ★47,335 · requested 2026-01-30 · last release 2026-09-17 (36d gap) `regular`
@@ -527,13 +487,11 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Crowdsec** — enhanced fail2ban app [upstream](https://github.com/crowdsecurity/crowdsec) · ★15,404 · requested 2023-10-23 · last release 2026-10-26 (4d gap) `easy`
 - **Duplicati** — encrypted backups on cloud storage services [upstream](https://github.com/duplicati/duplicati) · ★15,177 · requested 2026-08-20 · last release 2026-10-31 (1d gap) `regular`
 - **Earthstar-Project** — Storage for private, distributed, offline-first applications. [upstream](https://github.com/earthstar-project/earthstar) · ★921 · requested 2023-09-25 · last release 2023-08-31 `quiet` `regular`
-- **Endlessh** — SSH Tarpit [upstream](https://github.com/skeeto/endlessh) · ★8,572 · requested 2023-09-25 · last release 2019-04-29 `dormant` `easy`
 - **FoldingAtHome** — Turn your computer's idle power into a global supercomputer for biomedical research. [upstream](https://github.com/FoldingAtHome/fah-client-bastet) · ★178 · requested 2026-09-13 · last commit 2026-10-18 `regular`
 - **Goaccess** — Web log analyzer [upstream](https://github.com/allinurl/goaccess) · ★21,104 · requested 2023-09-25 · last commit 2026-10-28 `easy`
 - **Graphhopper** — Routing engine for OpenStreetMap. Use it as Java library or standalone web server. [upstream](https://github.com/graphhopper/graphhopper) · ★6,750 · requested 2023-09-25 · last release 2026-09-29 (349d gap) `regular`
 - **IPFS** — Peer-to-peer hypermedia protocol [upstream](https://github.com/ipfs/ipfs) · ★23,056 · requested 2023-09-25 · last commit 2025-05-01 `slow-releases` `easy`
 - **Kula** — Monitoring pour serveur écrit en GO [upstream](https://github.com/c0m4r/kula) · ★1,340 · requested 2026-05-04 · last release 2026-09-30 (1d gap) `easy`
-- **MaidSafe** — The Safe Network Core. API message definitions, routing and nodes, client core api. [upstream](https://github.com/maidsafe/safe_network) · requested 2023-09-25 · last release 2026-02-19 `regular`
 - **mCaptcha** — No-nonsense CAPTCHA system [upstream](https://github.com/mCaptcha/mCaptcha) · ★2,497 · requested 2024-08-17 · last release 2024-03-15 `quiet` `easy`
 - **Mosparo** — A modern spam protection system. [upstream](https://github.com/mosparo/mosparo) · ★313 · requested 2026-05-05 · last release 2026-10-26 (6d gap) `regular`
 - **NarrowLink (Gate Client Agent)** — Gateway Service uses HTTPS QUIC with CDN integration; Reverse Proxies Client web service via Agents [upstream](https://github.com/narrowlink/narrowlink) · ★658 · requested 2024-10-14 · last release 2024-06-21 (93d gap) `quiet` `easy`
@@ -542,7 +500,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Pangolin** — Identity-Aware Tunneled Reverse Proxy Server with Dashboard UI [upstream](https://github.com/fosrl/pangolin) · ★23,283 · requested 2025-12-18 · last release 2026-10-23 `regular`
 - **Raspap** — Simple wireless AP setup & management for Debian-based devices [upstream](https://github.com/RaspAP/raspap-webgui) · ★5,230 · requested 2023-09-25 · last release 2026-10-02 (2d gap) `regular`
 - **SFTPGo** — SFTP server with a web UI and optional support for FTP/S, Webdav and plenty of storage backends [upstream](https://github.com/drakkan/sftpgo) · ★12,735 · requested 2025-10-14 · last release 2026-09-19 (63d gap) `easy`
-- **shinken** — A flexible and scalable monitoring framework [upstream](https://github.com/naparuba/shinken) · requested 2023-09-25 · last commit 2024-04-26 `quiet` `regular`
 - **smokeping** — The Active Monitoring System [upstream](https://github.com/oetiker/SmokePing) · ★1,983 · requested 2023-09-25 · last release 2025-02-19 (1289d gap) `slow-releases` `regular`
 - **SPHINX password storage** — A zero-trust, online next-generation password storage [upstream](https://github.com/stef/zphinx-zerver) · ★12 · requested 2025-03-28 · last release 2025-03-15 (4d gap) `slow-releases` `regular`
 - **Tabby Web Service** — Tabby Web - an SSH/Telnet/Serial client in your browser. [upstream](https://github.com/Eugeny/tabby-web) · ★1,526 · requested 2025-09-17 · last commit 2026-01-01 `regular`
@@ -573,4 +530,50 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-12 · 515 upstream entries · 0 new this run._
+## Dropped from upstream wishlist (43)
+
+- active-pieces
+- amara
+- anki-sync-server
+- ass
+- beatbump
+- birdsitelive
+- brandcraft
+- congressus
+- dd-builder
+- endlessh
+- ente-photos
+- ephemera
+- etesync
+- farside
+- foutain-ink
+- geovisio
+- guppe
+- hammond
+- helpy
+- histopad
+- hydroxide
+- inventaire
+- invidious-router
+- l-atelier
+- lingva-translate
+- maidsafe
+- mailpile
+- morss
+- officelife
+- ohmyform
+- opensupports
+- peppermint
+- polotno-studio
+- protonmails-webclient
+- race-for-the-galaxy
+- raindrop
+- savapage
+- shinken
+- spodcast
+- stackedit
+- takahe
+- wafrn
+- zotero
+
+_Last synced 2026-11-13 · 472 upstream entries · 0 new this run._

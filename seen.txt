@@ -1,7 +1,6 @@
 3xui
 4get
 access-to-memory-atom
-active-pieces
 activepieces
 agentj
 airflow
@@ -10,11 +9,9 @@ akaunting
 aktivisda
 aliasvault
 altcha
-amara
 amneziawg
 amusewiki
 analytodon
-anki-sync-server
 anonaddy
 anonymousoverflow
 anubis
@@ -26,7 +23,6 @@ archivematica
 archivesspace
 armbian-hastebin
 asqatasun
-ass
 astral
 automatisch
 azuracast
@@ -36,13 +32,11 @@ bandwagon
 bar-assistant
 bdserver
 bearblog
-beatbump
 beeper
 benelios
 benevol
 bibliogenius
 bigbluebutton
-birdsitelive
 bitcartcc
 bitmagnet
 bitmessage
@@ -50,7 +44,6 @@ blynk
 boinc
 booklore
 bpmn-io
-brandcraft
 brinjel
 broadcast-box
 btw
@@ -83,7 +76,6 @@ clipbucket
 cloudtube
 cobalt
 commonplace
-congressus
 continuwuity
 convertx
 coquelicot
@@ -98,7 +90,6 @@ dashy
 dataverse
 davmail
 dawarich-location-history
-dd-builder
 decap-cms
 decidim
 digibuzzer
@@ -121,19 +112,14 @@ duplicati
 earthstar-project
 ejabberd
 emdash
-endlessh
 endurain
 ente
-ente-photos
-ephemera
 erine-email
 erpnext
-etesync
 evcc
 eventschedule
 excalibur
 exo-platform
-farside
 fdroidserver
 federated-wiki
 feedbin
@@ -152,7 +138,6 @@ fluxer
 foldingathome
 forem
 fossil
-foutain-ink
 fractale
 framaestro-hub
 framamemes
@@ -165,7 +150,6 @@ gatus
 geeftlist
 geneweb
 geopulse
-geovisio
 gladys-assistant
 goaccess
 goatcounter
@@ -181,17 +165,13 @@ graylog
 greenlight
 grimmory
 gumroad
-guppe
 habitica
-hammond
 hauk
 haven
 heimdall
-helpy
 hexo
 heyform
 hi-events
-histopad
 hollo
 homepage
 hometown
@@ -199,7 +179,6 @@ hoodik
 horilla
 hortusfox
 huly
-hydroxide
 hypebot
 hyper-8
 hyperion
@@ -210,9 +189,7 @@ iipimage
 inboxen
 infcloud
 inginious
-inventaire
 inventree
-invidious-router
 invoiceplane
 ipfs
 isoflow
@@ -236,7 +213,6 @@ koreader-sync-server
 kula
 kurrier
 kutt-it
-l-atelier
 lachariotte
 lacre
 lago
@@ -248,7 +224,6 @@ librum
 lila
 limejourney
 linguacafe
-lingva-translate
 linkblocks
 linkding
 linkhut
@@ -262,9 +237,7 @@ loot
 loxya
 lyrion-music-server
 madblog
-maidsafe
 mail-archiver
-mailpile
 mailtrain
 majola
 manyfold
@@ -291,7 +264,6 @@ misfin
 mkdocs
 modoboa
 mods-community-edition
-morss
 mosparo
 music-assistant
 my-idlers
@@ -311,8 +283,6 @@ novosga
 obico
 obsidian
 ocs-inventory-ng
-officelife
-ohmyform
 omailgw
 omnitools
 onetimesecret
@@ -324,7 +294,6 @@ opencut
 openhab
 openmeteo
 opensign
-opensupports
 organizr
 ospreadsheet
 osrm
@@ -340,7 +309,6 @@ password-pusher
 patchy
 peergos
 pelican-panel-panel
-peppermint
 personal-management-system
 phorge
 photon-for-lemmy
@@ -359,13 +327,11 @@ pluto-jl
 podfetch
 polis
 pollen
-polotno-studio
 posse-party
 pritunl
 privategpt
 pronouns-cc
 protonmail-bridge
-protonmails-webclient
 proxigram
 psono
 puter
@@ -373,11 +339,9 @@ pyfedi
 qfieldcloud
 qgis-server
 qwc2
-race-for-the-galaxy
 racktables
 rackula
 radicle-seed-node
-raindrop
 raspap
 rawgraph
 read-the-docs
@@ -396,7 +360,6 @@ rustypaste
 rybbit
 saltcorn
 sat
-savapage
 scanopy
 scenarichainserver
 schleuder-web
@@ -408,7 +371,6 @@ sentry
 sftpgo
 shadowsocks
 shelfmark
-shinken
 shiny-server
 shynet
 sickchill
@@ -426,8 +388,6 @@ spacebar
 sphinx
 sphinx-password-storage
 spliit
-spodcast
-stackedit
 stingle-api
 stoat
 storj
@@ -444,7 +404,6 @@ syspass
 tabby-web-service
 tahoe-lafs
 taiga
-takahe
 taskchampion-sync-server
 tasks-md
 taskwarrior
@@ -485,7 +444,6 @@ viestireports
 vod2podrss
 voyantserver
 vpn-server
-wafrn
 webhook-site
 webstudio
 webterminal
@@ -511,5 +469,4 @@ zammad
 zigbee2mqtt-io
 znc
 zoneminder
-zotero
 zulip
