@@ -1,0 +1,220 @@
+# No account integration required
+
+Wishlist apps that need **no LDAP (packaging v2) and no OIDC (v3)**: the app ships **no user/account system**, so there is no auth to wire: nothing to move when YunoHost packaging goes from LDAP (v2) to OIDC (v3). Identity is at most a single fixed admin credential, a shared secret, or machine keys.
+
+Dropped from the previous list (they have their own registration/user tables — LDAP-tempting in v2, OIDC-migratable in v3): linkding, mealie, bearblog, mataroa, manyfold, romm, docspell, graylog, checkmk, zoneminder, hypothes.is, beeper, aliasvault, inboxen, agentj, ajenti, webterminal, gocd, strapi, plane, solidtime, inventree, racktables, lago, pixeleye, limejourney, Urlaubsverwaltung, tibillet, timetagger, endurain, Librum (server), OpenSign, Heyform, Plasmic, GoatCounter, Archivematica, ArchivesSpace, Loxya, chibisafe, misfin, dotmakeup, BiblioGenius, Documenso/DocuSeal-class, all team/org software. Also dropped: libraries/CLIs that are not services (hexo, mkdocs, gatsby, trivy, taskwarrior, fdroidserver...).
+
+## No authentication built in (portal-gate or expose freely) (106)
+
+- **3XUI** — VPN panel for Xray servers supporting VMess, VLESS, Trojan, Shadowsocks, WireGuard, traffic/IP limit
+- **altcha** — Captcha and Bot Protection
+- **Analytodon** — Analytics for your mastodon accounts
+- **AnonymousOverflow** — It allows you to view StackOverflow threads. A frontend.
+- **Apertium** — A machine translation platform
+- **AptCacher NG** — A caching proxy for Debian-based (and others) packages
+- **Armbian Hastebin** — Pastebin server with ANSI color rendering. (Go rewrite of Hastebin ANSI.)
+- **benevol** — Un lien, ils choisissent leur créneau, c'est fait.
+- **bitmagnet** — BitTorrent indexer, DHT crawler and search engine
+- **BOINC** — Donate unused CPU time to help scientific projects (like World Community Grid or Rosetta@home)
+- **bpmn.io** — Web-based toolkit for modeling and visualizing business process diagrams using BPMN, DMN and CMMN.
+- **Broadcast Box** — Lets you broadcast/screen-share to friends in sub-second time.
+- **BTW** — Build easly your personal website.
+- **bukuserver** — Bookmark manager and personal textual mini-web with browsable front-end on a web server
+- **CheckUp** — Distributed, lock-free, self-hosted health checks and status pages
+- **Claper** — Claper turns your presentations into an interactive, engaging and exciting experience.
+- **CloudTube** — CloudTube front-end for YouTube
+- **Cobalt** — Simple Media downloader GUI
+- **ConvertX** — online file converter. Supports 1000+ formats
+- **Dashy** — Customizable dashboard used to organize self-hosted services, websites, etc.
+- **Digibuzzer** — pour jouer autour d'un buzzer connecté
+- **Digishare** — pour partager des fichiers avec des appareils proches
+- **Digistorm** — pour créer des remue-méninges, des questionnaires, etc.
+- **dmarcreportviewer** — DMARC and SMTP TLS report viewer
+- **Domain Watchdog** — Your companion in the quest for domain names searching.
+- **Downtify** — Download audio files from Spotify
+- **drawDB** — Database entity relationship diagram (ERD) editor
+- **erine.email** — Email alias software
+- **evcc** — Management system for cost optimized and solar powered EV charging
+- **Excalibur** — A web interface to extract tabular data from PDFs (based on Camelot)
+- **Federated wiki** — Farm for fedwiki sites
+- **flopEDT** — Outil de création et de gestion d’emplois du temps
+- **Framamemes** — Générateur de mèmes (et de description) à partir d'images sous licence libre.
+- **Freetar** — Alternative frontend to ultimate-guitar.com (like Invidious but only for Ultimate Guitar).
+- **Gatus** — Automated developer-oriented status page with alerting and incident support
+- **Geneweb** — Genealogy in a web interface
+- **GotHub** — An alternative front-end for GitHub, written in Go.
+- **Graphhopper** — Routing engine for OpenStreetMap. Use it as Java library or standalone web server.
+- **Heimdall** — Application dashboard and launcher
+- **Homepage** — A highly customizable application dashboard with integrations for over 100 services
+- **hypebot** — Mastodon bot that boosts trending posts from other instances into your timeline
+- **Hyper 8** — Hyper 8 lets you create video sites, from single videos to playlists to entire video archives.
+- **Hyperion** — Ambient lightning software
+- **IIPImage** — Zoomserver for gigapixel images
+- **InfCloud** — A contacts, calendar and tasks web client for CalDAV and CardDAV
+- **iSponsorBlockTV** — Bloqueur de publicité youtube TV App
+- **JAN** — GPT and LLM local AI models engine
+- **JS Bin** — Collaborative JavaScript Debugging App
+- **Kill the newsletter** — Convert email newsletters to RSS feeds
+- **Klaxon** — Easily create alerts for changes on the web
+- **LaChariotte** — Outil pour organiser des commandes groupées
+- **Lacre** — Add-on for Postfix that automatically encrypts incoming email in inbox
+- **LessPass** — Stateless password manager
+- **LibreY** — Meta search engine for Google and popular torrent sites, fork of LibreX
+- **LiquidSoap** — Audio and video streaming language
+- **Look Scanned** — A pure frontend site that makes your PDFs look scanned
+- **Lyrion Music Server** — A streaming audio server (formerly Logitech Mediaserver, SlimServer, SqueezeCenter, SqueezeboxServer
+- **Mememetadata** — A meme gallery
+- **Mosparo** — A modern spam protection system.
+- **Music Assistant** — Media library manager that connects your streaming services and a wide range of connected speakers.
+- **NarrowLink (Gate Client Agent)** — Gateway Service uses HTTPS QUIC with CDN integration; Reverse Proxies Client web service via Agents
+- **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost
+- **Netrunner** — A card game in a cyberpunk universe
+- **oMailgw** — Tool to manage and monitor outgoing email gateway(s) (SMTP relay) using postfix
+- **Omnitools** — une application web auto-hébergée offrant une variété d'outils en ligne (images/pdf/etc)
+- **OpenMeteo** — Weather Forecast API.
+- **OSRM** — Routing Machine - C++ backend
+- **Parenthèse** — Living family tree: photos, videos and voices on every person, shared with your family by link.
+- **Participy** — Allows you to interact with an audience through various types of questions, polls, quizzes…
+- **Patchy** — Temporary and light file uploader
+- **Pinka** — A commenting server that bridges static sites to ActivityPub sites like Mastdon.
+- **Pluto.jl** — Reactive notebooks like Pluto.jl offer several advantages that make them appealing for data analysis
+- **Pollen** — Sondages et votations avec de nombreux modes de scrutins (Condorcet, Borda, Jugement majoritaire…)
+- **pronouns.cc** — Create and share all your pronouns to share your names, pronouns, and other preferred terms.
+- **QGis server** — Publish QGis desktop projets and maps as OGC-compliant services, that can be used in openlayers, lea
+- **QWC2** — A react and openlayers-based web UI to publish and display QGIS desktop projects.
+- **Rackula** — Drag-and-drop rack layout designer
+- **rawgraph** — Create custom vector-based visualizations
+- **rs short** — rs-short : Link shortener in Rust made by La Contre-Voie
+- **RSS-proxy** — Create an RSS or ATOM feed of almost any website, just by analyzing just the static HTML structure.
+- **RSSPub** — Fetch RSS feeds and turns into EPUB file, specially useful for e-readers and e-ink devices.
+- **Rustypaste** — minimal file upload/pastebin service
+- **Shiny server** — Host Shiny applications, which are webapps for data science created using R or Python
+- **slipshow** — Le slipshow est un outil spécialement conçu pour les présentations techniques
+- **smokeping** — The Active Monitoring System
+- **Sosse** — Selenium based search engine and crawler with offline archiving
+- **Strava Statistics** — Provide dashboard with various stats and charts from Strava
+- **Suwayomi** — A manga reader server that runs extensions built for Tachiyomi
+- **Tasks.md** — App for managing tasks lists with markdown support.
+- **Tee Worlds** — An online multiplayer game. Battle with up to 16 players in a variety of game modes.
+- **Terminus** — Web server that allows to manage TRMNL devices running on your own local network or hosted cloud.
+- **Ticker** — Publish ticket on several website or some social media accounts
+- **Tileserver-GL** — Tile server light SVG for map service
+- **tnyr.me** — Privacy-focused URL shortener with seamless encryption.
+- **tootgroup** — fediverse bot that re-toots content of a group of accounts on its own account
+- **TourGaze** — Showing a 3D map with a GPX file uploaded, with many other features. Ride stats, Photos, Meteo, etc.
+- **tubesync** — Syncs YouTube channels and playlists to a locally hosted media server
+- **Univer** — Replacement of Luckysheet (deprecated, in yunohost packages)
+- **urlwatch** — Checks webpages and notifies via email or through various third party services on change.
+- **ViestiReports** — Provides a way to view DMARC and SMTP-TLS reports (reads the inbox for new reports and process them)
+- **Vod2PodRSS** — Convert YouTube or Twitch channels RSS feed
+- **VoyantServer** — Runs a webUI and backend for VoyantTools, a textual concordance and analysis java app.
+- **VPN server** — Create/provide VPNs from your server
+- **Webhook.site** — Easily test HTTP webhooks with this handy tool that displays requests instantly.
+- **WRP** — A browser-in-browser "proxy" server that allows to use vintage web browsers on the modern web.
+- **Xonotic** — Fast paced first person shooter
+
+## Single fixed credential / shared secret (one admin, no user list) (25)
+
+- **BDServer** — Minimalistic, No JS, blogging server software with federation features
+- **Counter** — Web Analytics made simple
+- **Cronmaster** — Modern UI tool to manage cron jobs
+- **Duplicati** — encrypted backups on cloud storage services
+- **Feishin** — a music web player that connect with server backends like jellifin or navidrome
+- **Fireshare** — Fireshare provides a way for you to share any videos you have through a unique link.
+- **Frigate** — Local NVR designed for Home Assistant with AI object detection
+- **fx** — microblogging and blogroll, everything that is needed for a barebones POSSE system
+- **Hortusfox** — Plant tracking managament
+- **InvoicePlane** — Manage invoices, clients and payments.
+- **Karaoke-forever** — Organize karaoke parties
+- **KindleEar** — Generate EPUB/MOBI from RSS and send it to Kindle/E-readers on a schedule basis.
+- **madblog** — MarkDown based blogging platform with full ActivityPub and Fediverse support. No database.
+- **MeTube** — Video downloader Web UI using yt-dlp
+- **OnMyShelf** — Manage personal collections with both presets and customs fields.
+- **Password Pusher** — Communicate sensitive information over the web
+- **Picsur** — Image hosting
+- **pinchflat** — Your next YouTube media manager
+- **PodFetch** — Sleek podcast server that auto-downloads episodes, with web UI and GPodder sync for AntennaPod
+- **Raspap** — Simple wireless AP setup & management for Debian-based devices
+- **Restreamer** — Live video streaming from any source to any destination, even multiple destinations.
+- **sickchill** — Automatic TV shows downloader
+- **Sunshine** — Stream installed games and programs to other devices.
+- **Teslamate** — A powerful, self-hosted data logger for your Tesla
+- **Tube Archivist** — Tube Archivist indexes and organizes archived YouTube videos through a convenient web interface.
+
+## Machine or key identity (nodes, tokens, sessions, p2p) — no human accounts (22)
+
+- **AmneziaWG** — A fork of Wireguard that adds traffic masking like Shadowsocks, XRay, QUIC, etc to counter DPI.
+- **Bitmessage** — P2P communication protocol used to send encrypted messages
+- **cross seed** — App to seed dowloaded torrent on multiple trackers.
+- **Distribution** — The toolkit to pack, ship, store, and deliver container content
+- **Earthstar-Project** — Storage for private, distributed, offline-first applications.
+- **fishnet** — Distributed Stockfish analysis for lichess.org
+- **FoldingAtHome** — Turn your computer's idle power into a global supercomputer for biomedical research.
+- **Hauk** — Realtime location sharing
+- **Hoodik** — e2ee cloud storage solution written in Rust
+- **Hysteria** — A powerful, lightning fast and censorship resistant proxy
+- **Koreader Sync Server** — Synchronization service for Koreader devices
+- **Nebula** — Scalable overlay networking tool with a focus on performance, simplicity and security.
+- **Nostr** — Censorship-resistant alternative to Twitter
+- **Radicle Seed Node** — Radicle decentralized p2p Git, see also https://radicle.dev/guides/seeder
+- **Renovate** — Bot for automating dependency updates on Gitlab / Gitea / Forgejo
+- **Retroshare** — Friend-2-Friend, secure decentralised communication platform.
+- **Signal Proxy** — Fight censorship and bypass traffic securely to the Signal service
+- **Tahoe-LAFS** — Decentralized cloud storage system
+- **TMate** — Instant Terminal Sharing
+- **xBrowserSync** — A bookmark sync tool, with browser plugins and mobile clients available
+- **Yggdrasil** — An experiment in scalable routing as an encrypted IPv6 overlay network
+- **znc** — IRC Bouncer
+
+_153 apps._
+
+## Single-user apps (own login, but one person — still no LDAP/OIDC wiring needed)
+
+Personal tools that ship a local registration/login. Packaging needs no LDAP/OIDC: bootstrap the account at install (bearblog pattern) and portal-gate. Migration-proof only if you never wire them to a directory — they do have user tables, so they are migration-free only as long as nobody wires them to a directory.
+
+- **AliasVault** — Privacy-first password and email alias manager.
+- **BabyBuddy** — Application d'aide aux personnes en charge de jeunes enfants
+- **Bearblog** — Free, no-nonsense, super-fast blogging
+- **BiblioGenius** — Scan and organize your books. Lend and borrow with the people you trust.
+- **Butler** — Spotify alternative, download music with yt-dlp, organize it into a personal library, and stream it
+- **ByteStash** — Store, organise, and manage your code snippets efficiently.
+- **calrs** — complete solution allowing you to manage appointment booking very simply.
+- **Carbure** — Self-hosted household budget app.
+- **chibisafe** — Modern file uploader service written in TypeScript that just works
+- **ClearFlask** — Ideation Tool for Feedback, Roadmap and Announcements
+- **Docspell** — Simple document organizer
+- **Documenso** — Document signing solution
+- **DocuSeal** — Create, fill, and sign digital documents
+- **Endurain** — Fitness tracking service
+- **Feedbin** — Simple, fast and nice looking RSS reader
+- **Ferdium Server** — Ferdium server allows you to manage the data yourself and add your own recipes.
+- **GoatCounter** — privacy-friendly web analytics
+- **Habitica** — A habit tracker app which treats your goals like a Role Playing Game.
+- **Heyform** — Form builder
+- **kasm** — container streaming platform offering to use a multitude of different containers in your browser
+- **Kima** — On-demand audio streaming platform that brings the Spotify experience to your personal music library
+- **Librum** — Read and manage your e-books on any device.
+- **Linkding** — Minimal, fast, and easy bookmark manager
+- **Majola** — Music scrobble database, alternative to Last.fm
+- **Manyfold** — application for managing a collection of 3d models, particularly focused on 3d printing.
+- **mataroa.blog** — super minimal blogging platoform in python, alternative to bear blog
+- **Mayan-EDMS** — Document management system
+- **Mealie** — Recipe manager and meal planner
+- **Mindwtr** — GTD productivity app that helps you capture, clarify, organize, and engage with your tasks
+- **NewsBlur** — RSS reader
+- **Onetime Secret** — Keep passwords and other sensitive information out of your inboxes and chat logs.
+- **OpenSign** — DocuSign alternative, for signing and annotating PDF files
+- **organizr** — Organizr allows you to setup "Tabs" that will be loaded all in one webpage
+- **Plausible Analytics** — Privacy-friendly web analytics (alternative to Google Analytics)
+- **readur** — Document management system. Transforms papers and digital files into a searchable, organized system
+- **Reitti** — Neat GPS Tracker that features a useful timeline and history browsing features
+- **romm** — Scan, enrich, and browse your game collection with a clean and responsive interface.
+- **Rybbit** — Google Analytics alternative.
+- **Shelfmark** — Web interface for searching and downloading books and audiobooks from multiple sources.
+- **Shynet** — Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+- **Sintoniza** — Podcast synchronization server based on the gPodder "protocol".
+- **SPHINX password storage** — A zero-trust, online next-generation password storage
+- **Super Productivity** — Task management app
+- **Timetagger** — An open source time-tracker with an interactive user experience and powerful reporting.
+- **Yuvomi** — Privacy-focused family planner: calendar, tasks, shopping, meals, budget, health and more
+- **Zaibu** — App permettant de noter vos dégustations de breuvages (actuellement bières et vins principalement).
