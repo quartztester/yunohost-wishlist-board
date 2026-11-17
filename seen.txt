@@ -228,6 +228,7 @@ linkblocks
 linkding
 linkhut
 liquidsoap
+littlefedi
 lobe-chat
 locomotivecms
 logseq
@@ -302,7 +303,7 @@ ox-open-xchange
 padloc
 pangolin
 panoramax
-parenthese
+partdb
 participy
 passbolt
 password-pusher
@@ -424,6 +425,7 @@ timetagger
 tmate
 tnyr-me
 tootgroup
+tootik
 tourgaze
 trek
 trivy

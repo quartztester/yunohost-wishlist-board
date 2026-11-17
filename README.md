@@ -14,6 +14,9 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Sintoniza** — Podcast synchronization server based on the gPodder "protocol". [upstream](https://github.com/manualdousuario/sintoniza/) · ★47 · requested 2026-03-27 · last release 2026-10-21 `regular`
 - **WRP** — A browser-in-browser "proxy" server that allows to use vintage web browsers on the modern web. [upstream](https://github.com/tenox7/wrp) · ★1,308 · requested 2025-10-22 · last release 2026-04-23 (1d gap) `easy`
+- **littlefedi** — small ActivityPub server written in Go [upstream](https://littlefedi.org/downloads/) `unknown`  `NEW`
+- **PartDB** — Inventory management system for electronic components and component library for KiCAD. [upstream](https://github.com/Part-DB/Part-DB-server/releases) `unknown`  `NEW`
+- **tootik** — A federated, text-based social network with a Gemini frontend [upstream](https://github.com/dimkr/tootik/) `unknown`  `NEW`
 
 ## Synchronization (16)
 
@@ -341,7 +344,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Dataverse** — Find, share, cite, and preserve research data [upstream](https://github.com/IQSS/dataverse) · ★1,078 · requested 2023-09-25 · last release 2026-10-08 (21d gap) `complex`
 - **LinguaCafe** — Web-based tool suite to help learning foreign languages [upstream](https://github.com/simjanos-dev/LinguaCafe) · ★1,477 · requested 2025-05-02 · last release 2025-04-13 (24d gap) `slow-releases` `regular`
 
-## Multimedia (60)
+## Multimedia (59)
 
 - **Azuracast** — A Web Radio Management Suite [upstream](https://github.com/AzuraCast/AzuraCast) · ★4,081 · requested 2023-09-25 · last release 2023-08-17 (118d gap) `quiet` `regular`
 - **Bandwagon** — Fediverse platform for publishing music (like Funkwhale) [upstream](https://github.com/EmissarySocial/bandwagon) · ★58 · requested 2026-05-06 · last commit 2026-10-30 `easy`
@@ -383,7 +386,6 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **opencast** — Flexible, reliable, and scalable open source video management system for academic institution [upstream](https://github.com/opencast/opencast/) · ★509 · requested 2023-12-26 · last release 2026-10-29 `regular`
 - **OpenCut** — CapCut alternative [upstream](https://github.com/OpenCut-app/OpenCut) · ★96,957 · requested 2025-10-15 · last release 2026-09-24 (162d gap) `regular`
 - **Panoramax** — Alternative to google streetview which hosts 360° geolocalized pictures. [upstream](https://gitlab.com/panoramax/server) · requested 2026-07-06 · last commit 2026-10-31 `regular`
-- **Parenthèse** — Living family tree: photos, videos and voices on every person, shared with your family by link. [upstream](https://github.com/IliesAllali/parenthese) · ★89 · requested 2026-10-29 · last release 2026-10-29 `regular`
 - **Photon for Lemmy** — Clean and modern UI for Lemmy instances [upstream](https://github.com/Xyphyn/photon) · ★558 · requested 2024-05-23 · last release 2026-07-30 (13d gap) `regular`
 - **Picpeak** — Photo sharing platform for photographers & events. [upstream](https://github.com/the-luap/picpeak) · requested 2025-11-09 · last release 2026-10-28 (1d gap) `regular`
 - **Picsur** — Image hosting [upstream](https://github.com/rubikscraft/Picsur) · requested 2023-09-25 · last release 2024-11-01 `quiet` `regular`
@@ -530,4 +532,8 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-16 · 472 upstream entries · 0 new this run._
+## Dropped from upstream wishlist (1)
+
+- parenthese
+
+_Last synced 2026-11-17 · 474 upstream entries · 3 new this run._
