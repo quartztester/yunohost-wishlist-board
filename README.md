@@ -14,9 +14,9 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Sintoniza** — Podcast synchronization server based on the gPodder "protocol". [upstream](https://github.com/manualdousuario/sintoniza/) · ★47 · requested 2026-03-27 · last release 2026-10-21 `regular`
 - **WRP** — A browser-in-browser "proxy" server that allows to use vintage web browsers on the modern web. [upstream](https://github.com/tenox7/wrp) · ★1,308 · requested 2025-10-22 · last release 2026-04-23 (1d gap) `easy`
-- **littlefedi** — small ActivityPub server written in Go [upstream](https://littlefedi.org/downloads/) `unknown`  `NEW`
-- **PartDB** — Inventory management system for electronic components and component library for KiCAD. [upstream](https://github.com/Part-DB/Part-DB-server/releases) `unknown`  `NEW`
-- **tootik** — A federated, text-based social network with a Gemini frontend [upstream](https://github.com/dimkr/tootik/) `unknown`  `NEW`
+- **littlefedi** — small ActivityPub server written in Go [upstream](https://littlefedi.org/downloads/) `unknown`
+- **PartDB** — Inventory management system for electronic components and component library for KiCAD. [upstream](https://github.com/Part-DB/Part-DB-server/releases) `unknown`
+- **tootik** — A federated, text-based social network with a Gemini frontend [upstream](https://github.com/dimkr/tootik/) `unknown`
 
 ## Synchronization (16)
 
@@ -532,8 +532,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-## Dropped from upstream wishlist (1)
-
-- parenthese
-
-_Last synced 2026-11-17 · 474 upstream entries · 3 new this run._
+_Last synced 2026-11-18 · 474 upstream entries · 0 new this run._
