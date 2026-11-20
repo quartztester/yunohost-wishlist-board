@@ -29,7 +29,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **Lauti** — Community calendar [upstream](https://codeberg.org/Klasse-Methode/lauti) · ★103 · requested 2026-01-22 · last release 2026-10-16 (213d gap) `regular`
 - **LessPass** — Stateless password manager [upstream](https://github.com/lesspass/lesspass) · ★6,076 · requested 2023-09-25 · last commit 2026-10-14 `regular`
 - **Padloc** — Simple, secure password and data management for individuals and teams [upstream](https://github.com/padloc/padloc) · ★2,941 · requested 2023-09-25 · last release 2026-10-14 (1317d gap) `regular`
-- **Passbolt** — Password manager [upstream](https://github.com/passbolt/passbolt_docker) · ★1,122 · requested 2023-09-25 · last release 2025-11-19 (230d gap) `regular`
+- **Passbolt** — Password manager [upstream](https://github.com/passbolt/passbolt_docker) · ★1,122 · requested 2023-09-25 · last release 2025-11-19 (230d gap) `slow-releases` `regular`
 - **Peergos** — IPFS File Sync Tools & Cloud Storage Application [upstream](https://github.com/Peergos/Peergos) · ★2,545 · requested 2025-04-14 · last commit 2026-10-30 `regular`
 - **Psono** — Password Manager for Teams [upstream](https://gitlab.com/psono/psono-server) · requested 2023-09-25 · last release 2026-10-30 (1d gap) `regular`
 - **QFieldCloud** — Allows synchronization of your GIS field data with QField and QGIS. [upstream](https://github.com/opengisch/QFieldCloud) · ★246 · requested 2026-01-09 · last release 2026-10-23 (37d gap) `regular`
@@ -532,4 +532,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-19 · 474 upstream entries · 0 new this run._
+_Last synced 2026-11-20 · 474 upstream entries · 0 new this run._
