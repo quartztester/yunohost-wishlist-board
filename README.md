@@ -16,6 +16,7 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 - **WRP** — A browser-in-browser "proxy" server that allows to use vintage web browsers on the modern web. [upstream](https://github.com/tenox7/wrp) · ★1,308 · requested 2025-10-22 · last release 2026-04-23 (1d gap) `easy`
 - **littlefedi** — small ActivityPub server written in Go [upstream](https://littlefedi.org/downloads/) `unknown`
 - **PartDB** — Inventory management system for electronic components and component library for KiCAD. [upstream](https://github.com/Part-DB/Part-DB-server/releases) `unknown`
+- **Thunderdome** — Outil de gestion de projet suivant la méthodologie agile. Cartographie des usages, planning poker... [upstream](https://github.com/StevenWeathers/thunderdome-planning-poker) `unknown`  `NEW`
 - **tootik** — A federated, text-based social network with a Gemini frontend [upstream](https://github.com/dimkr/tootik/) `unknown`
 
 ## Synchronization (16)
@@ -532,4 +533,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-20 · 474 upstream entries · 0 new this run._
+_Last synced 2026-11-21 · 475 upstream entries · 1 new this run._
