@@ -4,6 +4,7 @@ access-to-memory-atom
 activepieces
 agentj
 airflow
+airtrail
 ajenti
 akaunting
 aktivisda
@@ -209,6 +210,7 @@ kitten
 klaxon
 known
 koha
+koito
 koreader-sync-server
 kula
 kurrier

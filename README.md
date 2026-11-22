@@ -12,12 +12,14 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 ## To categorize
 
+- **AirTrail** — Personal flight tracking system [upstream](https://github.com/johanohly/AirTrail) · requested 2026-11-21 `unknown`  `NEW`
+- **Koito** — ListenBrainz-compatible scrobble application. Alternative to Last.fm [upstream](https://github.com/gabehf/koito) · requested 2026-11-21 `unknown`  `NEW`
+- **Thunderdome** — Outil de gestion de projet suivant la méthodologie agile. Cartographie des usages, planning poker... [upstream](https://github.com/StevenWeathers/thunderdome-planning-poker) · requested 2026-11-20 `unknown`
+- **PartDB** — Inventory management system for electronic components and component library for KiCAD. [upstream](https://github.com/Part-DB/Part-DB-server/releases) · requested 2026-11-16 `unknown`
+- **tootik** — A federated, text-based social network with a Gemini frontend [upstream](https://github.com/dimkr/tootik/) · requested 2026-11-16 `unknown`
+- **littlefedi** — small ActivityPub server written in Go [upstream](https://littlefedi.org/downloads/) · requested 2026-11-16 `unknown`
 - **Sintoniza** — Podcast synchronization server based on the gPodder "protocol". [upstream](https://github.com/manualdousuario/sintoniza/) · ★47 · requested 2026-03-27 · last release 2026-10-21 `regular`
 - **WRP** — A browser-in-browser "proxy" server that allows to use vintage web browsers on the modern web. [upstream](https://github.com/tenox7/wrp) · ★1,308 · requested 2025-10-22 · last release 2026-04-23 (1d gap) `easy`
-- **littlefedi** — small ActivityPub server written in Go [upstream](https://littlefedi.org/downloads/) `unknown`
-- **PartDB** — Inventory management system for electronic components and component library for KiCAD. [upstream](https://github.com/Part-DB/Part-DB-server/releases) `unknown`
-- **Thunderdome** — Outil de gestion de projet suivant la méthodologie agile. Cartographie des usages, planning poker... [upstream](https://github.com/StevenWeathers/thunderdome-planning-poker) `unknown`  `NEW`
-- **tootik** — A federated, text-based social network with a Gemini frontend [upstream](https://github.com/dimkr/tootik/) `unknown`
 
 ## Synchronization (16)
 
@@ -533,4 +535,4 @@ Stability tags (age of latest release, or latest commit where a forge has no rel
 
 - **Neko** — Browser dans un browser. Permet de naviguer sur internet depuis le serveur yunohost [upstream](https://github.com/m1k1o/neko) · ★22,575 · requested 2025-05-28 · last release 2026-10-15 (15d gap) `easy`
 
-_Last synced 2026-11-21 · 475 upstream entries · 1 new this run._
+_Last synced 2026-11-22 · 477 upstream entries · 2 new this run._
