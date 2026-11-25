@@ -1,0 +1,339 @@
+# LDAP vs OIDC support
+
+Wishlist apps that have a user/account system, sorted by whether they can delegate login to a directory. Researched 2026-11-25 from upstream docs/source (evidence per app below). Apps with no auth to wire are in [no-account-integration-required.md](no-account-integration-required.md).
+
+- **LDAP** = the app itself authenticates users against an external LDAP/Active Directory directory. Packaging v2 can wire it to the YunoHost user directory.
+- **OIDC** = the app can log users in against an arbitrary OpenID Connect identity provider (configurable issuer/client-id). Social-only "login with Google/GitHub" OAuth does NOT count — that is hardcoded to those vendors.
+- YunoHost ships an LDAP directory (used by v2 packaging) and acts as an OIDC provider; neither the LDAP nor the OIDC section is better than the other, they are the two ways in.
+
+
+## Supports LDAP **and** OIDC (18)
+
+- **AgentJ** — docs/developers/ldap.md (LDAP connector login) + docs/administrators/oauth2.md (Keycloak openid-connect login)
+- **Airflow** — airflow.apache.org FAB auth-manager: AUTH_TYPE LDAP / OpenID (AUTH_OIDC)
+- **Decidim** — decidim.org/modules: official 'LDAP' module (per-org LDAP auth, signup disabled); 'Keycloak' OmniAuth strategy + Azure AD (v2) OmniAuth SSO modules
+- **Directus** — repo api/src/auth/drivers: ldap.ts, openid.ts (generic OIDC), saml.ts auth drivers _(also SAML)_
+- **ERPnext** — frappe: integrations/doctype/ldap_settings (docs.frappe.io/framework/.../ldap-integration) + social_login_key presets with scope=openid (Keycloak-style generic OIDC login)
+- **Graylog** — core LDAPAuthServiceBackend (security/authservice/backend); OIDC docs go2docs.graylog.org/current/setting_up_graylog/oidc.html
+- **Hometown** — tracks Mastodon core: config/omniauth.yml OIDC_ENABLED/SAML_ENABLED; app/models/concerns/user/ldap_authenticable.rb in hometown-dev _(also SAML)_
+- **InvenTree** — docs.inventree.org: custom auth backends for LDAP/AD login; SSO docs (django-allauth OIDC, works with authentik)
+- **Koha** — Koha manual: LDAP/AD auth (C4::Auth ldapserver); since 22.11 admin 'Identity providers' OAuth2/OIDC SSO _(also SAML)_
+- **NocoBase** — docs.nocobase.com security guide/integration/sso: SSO auth plugins for OIDC, SAML 2.0, LDAP, CAS _(also SAML)_
+- **OX Open-Xchange** — documentation.open-xchange.com middleware config: open-xchange-authentication-ldap; OpenID Connect external auth service config in /components/middleware/config/8/
+- **Psono** — doc.psono.com/admin/overview/supported-features.html: SAML/OIDC/LDAP via AUTHENTICATION_METHODS; oidc-keycloak.html guide _(also SAML)_
+- **Redash** — redash/authentication/ldap_auth.py + oidc.py + saml_auth.py; docs/open-source/admin-guide/ldap-authentication.md _(also SAML)_
+- **Semantic MediaWiki** — MediaWiki platform: Extension:LDAPAuthentication2 + Extension:OpenID_Connect (mediawiki.org, stable 8.3.0, PluggableAuth)
+- **Termix** — README plugins: Plugin-SSO 'Sign in with any OpenID Connect provider' + Plugin-LDAP (LDAP/AD login)
+- **Wisemapping** — doc/ldap/README.md + AuthenticationProviderLDAP.java; doc/oidc/README.md (github wisemapping/wisemapping-open-source)
+- **Zammad** — lib/auth/backend/ldap.rb + config/initializers/omniauth_openid_connect.rb (generic OIDC, DB-configured providers)
+- **Zulip** — zulip.readthedocs.io authentication-methods: LDAP/AD backend + 'integrated with any OpenID Connect (OIDC) provider' + SAML + REMOTE_USER _(also SAML)_
+
+## LDAP only (no OIDC) (31)
+
+- **Access to Memory (AtoM)** — accesstomemory.org docs 2.9: 'AtoM also has an LDAP module' (auth); no OIDC docs
+- **Archivematica** — archivematica.org docs admin-manual/security: 'LDAP setup' + 'LDAP backend configuration'
+- **ArchivesSpace** — backend/app/model/ldapauth.rb (LDAP authenticator in config.rb)
+- **Checkmk** — docs.checkmk.com/latest/en/ldap.html (LDAP user store); no OIDC page in docs sitemap
+- **CKAN** — ckanext-ldap (PyPI): 'CKAN extension that provides LDAP authentication'; no OIDC ext on PyPI
+- **DavMail** — README: POP/IMAP/CalDAV/LDAP gateway authenticating users against Exchange/AD via LDAP
+- **ejabberd** — docs.ejabberd.im/modules/mod_ldap/ - LDAP authentication module (mod_auth_ldap); no OIDC client support
+- **Exo platform** — exoplatform/core exo.core.component.organization.ldap: UserDAOImpl.authenticate() -> ldapService.authenticate (LDAP/AD bind login, activedirectory configs); saml2-addon repo for SAML SSO; no OIDC client found in org repos _(also SAML)_
+- **Filestash** — repo server/plugin/plg_authenticate_ldap (LDAP auth plugin); other auth plugins htpasswd/local/passthrough/wordpress - no OIDC plugin
+- **gocd** — docs.gocd.org dev_authentication: built-in LDAP/AD + gocd-ldap-authentication-plugin; no OIDC in plugin directory
+- **Horilla** — horilla-hr issue #537 + horilla.com blog: Settings > General Settings > LDAP Configuration; no OIDC docs
+- **Inginious** — docs.inginious.org config_reference: ldap_auth plugin (host/base_dn/request) _(also SAML)_
+- **LibreTime** — config schema ldap section (hostname/basedn/groupmap) + FreeIPA auth adapter; docs admin-manual/custom-authentication _(also auth-proxy headers)_
+- **Mailtrain** — upstream README/docker: WITH_LDAP, LDAP_HOST, LDAP_PORT, LDAP_SECURE env for admin auth; no OIDC (issue search empty)
+- **MintHCM** — wiki.minthcm.org Users Configuration + LDAP Integration page: 'Enable LDAP Authentication'
+- **Modoboa** — modoboa.readthedocs.io configuration.html: external LDAP auth via django-auth-ldap extra components; no OIDC (issue search empty)
+- **NovoSGA** — Novo SGA manual LDAP base integration; repo issues #149 'Case sensitive LDAP login', #319 'NovoSGA 2 LDAP Login'
+- **OCS Inventory NG** — wiki.ocsinventory-ng.org 'Manage authentification with LDAP' (delegated console auth); only CAS/SSO-proxy besides, no OIDC
+- **opencast** — docs.opencast.org/r/13.x/admin 'LDAP Authentication and Authorization (without CAS)'; JWT auth is proxy-based, not OIDC client
+- **Otobo** — Kernel/System/Auth/LDAP.pm auth backend in repo; Kerberos SSO doc at doc.otobo.org; no SAML/OIDC backend in core
+- **Phorge** — core PhabricatorLDAPAuthProvider.php (src/applications/auth/provider) inherited by Phorge; OAuth2 generic provider is not OIDC
+- **PHPList** — official phpList org plugin github.com/phpList/phplist-plugin-ldap 'LDAP Authentication Plugin for phpList'; no OIDC
+- **racktables** — wwwroot/inc/auth.php case 'ldap' == $user_auth_src + scripts/cleanup_ldap_cache.php in repo
+- **Request Tracker** — lib/RT/Authen/ExternalAuth/LDAP.pm (ExternalAuth LDAP); WebRemoteUser pages = auth-proxy header login _(also auth-proxy headers)_
+- **SuiteCRM** — docs.suitecrm.com/8.x/admin/configuration/ldap-configuration (Symfony LDAP authenticators) _(also SAML)_
+- **Sympa** — src/lib/Sympa/Config/Schema.pm 'ldap_auth': authenticates users based on LDAP directory
+- **Syspass** — README: 'MySQL, OpenLDAP and Active Directory authentication' (doc.syspass.org)
+- **Taiga** — LDAP via community plugin ensky/taiga-contrib-ldap-auth (Monogramm ext fork), not core; core = own accounts
+- **Teddy.io** — sismics/docs (Teedy) README: 'LDAP authentication' feature
+- **Tenzu** — src/configurations/settings.py: django-auth-ldap LDAPBackend with LDAPActivation DONT_USE/ONLY_USE
+- **tryton** — trytond-ldap-auth module (foss.heptapod.net/tryton/trytond-ldap-auth)
+
+## OIDC only (no LDAP) (56)
+
+- **Appsmith** — docs.appsmith.com instance-configuration/authentication/openid-connect-oidc (generic OIDC: Okta/Auth0/Keycloak...); no LDAP docs
+- **Backstage.io** — backstage.io/docs/auth/oidc (generic OpenID Connect plugin; Keycloak/Okta guides); no LDAP auth
+- **Bar Assistant** — config/services.php oidc OIDC_BASE_URL/OIDC_CLIENT_ID env; README 'SSO support'
+- **BigBlueButton** — docs.bigbluebutton.org greenlight/v3/external-authentication: OIDC login (Keycloak); no LDAP
+- **Booklore** — authelia.com/integration/openid-connect/clients/booklore (Booklore OIDC Authentication config)
+- **Budibase** — docs.budibase.com/docs/authentication-and-sso: OpenID Connect SSO (free), Azure AD guide
+- **Chirpstack** — chirpstack/src/api/oauth2.rs (configurable OAuth2 client) + ui/src/views/users/Login.tsx OIDC login
+- **Continuwuity** — conduwuit-example.toml [global.oauth.oidc]: delegated authentication via OIDC discovery URL
+- **Dataverse** — guides.dataverse.org/en/latest/installation/oidc.html + dataverse.auth.oidc.* config; install guide has no LDAP provider
+- **Dawarich Location History** — dawarich.app/docs/self-hosting/configuration/oidc-authentication/
+- **Dreeve** — README: 'Single sign-on - Log in to the admin panel with your own OIDC identity provider, such as Authentik, Authelia or Pocket ID'
+- **Fluxer** — fluxer_admin/src/sso.rs: configurable OIDC SSO (issuer, ProviderMetadata validation, scope 'openid profile'); AdminSsoSignIn/SsoIdentity controllers
+- **GeoPulse** — geopulse.cc/docs OIDC SSO (Keycloak/Auth0/Azure AD); GEOPULSE_OIDC_ENABLED in .env.example
+- **Gramps Web** — gramps-web-docs docs/en/install_setup/oidc.md: custom OIDC providers (Keycloak/Authentik/Authelia); no LDAP code in gramps-web-api
+- **Greenlight** — docs.bigbluebutton.org/greenlight/v3/external-authentication: OIDC; LDAP removed in v3
+- **Grimmory** — grimmory.org/docs/authentication/oidc-settings: Authentik/Keycloak/Authelia/PocketID; local+OIDC only, no LDAP
+- **Haven** — README: single sign-on via OpenID Connect - Authentik/Keycloak/Authelia/Auth0 work as login
+- **Hi.Events** — SsoProviderType::OIDC + OidcClient/OidcDiscoveryClient in backend/app/Services/Domain/Auth/Sso
+- **Huly** — huly-selfhost README 'Configure OpenID Connect (OIDC)': OPENID_CLIENT_ID/CLIENT_SECRET/ISSUER
+- **Keeper.sh** — README: OIDC_ISSUER_URL/OIDC_CLIENT_ID env, any OIDC IdP (Authentik, Keycloak, Pocket ID)
+- **kurrier** — README: 'local authentication, Google and standards-based OIDC/SSO'
+- **Kutt.it** — GitHub README features: 'OpenID Connect (OIDC) login'
+- **L'atelier** — README sso config: Keycloak openid-connect auth/token/userInfo endpoints (archived repo)
+- **Lago** — lago-api app/services/auth/entra_id: Entra ID OIDC login (openid scope, configurable host/tenant)
+- **linkblocks** — README: OIDC_CLIENT_ID/OIDC_CLIENT_SECRET/OIDC_ISSUER_URL env for SSO
+- **Lobe Chat** — .env.example AUTH_SSO_PROVIDERS incl. generic-oidc, authelia, authentik, keycloak, okta
+- **Mail Archiver** — github.com/s1t5/mail-archiver doc/OIDC_Implementation.md + Setup.md OAuth__Authority/ClientScopes env config
+- **Mbin** — config/packages/knpu_oauth2_client.yaml: Keycloak (auth_server_url/realm), Authentik, Zitadel, Azure OIDC connectors + OAUTH_* in .env.example; issues #575/#665 OIDC connectors
+- **Meshery** — Meshery Security docs 'Configure RBAC, SSO and Secure Remote Access': SSO delegated to OAuth/OIDC identity providers via Remote Provider
+- **Netbird** — docs.netbird.io/selfhosted/identity-providers/generic-oidc: any OIDC-compliant IdP via generic connector (Authentik etc.)
+- **Notifuse** — github.com/Notifuse/notifuse issue #388 'oidc: skip email_verified check when claim is absent' - OIDC login implemented
+- **Pangolin** — docs.pangolin.net/manage/identity-providers/openid-connect (generic OIDC IdP; Azure/Zitadel/Pocket-ID guides)
+- **Panoramax** — docs.panoramax.fr 'Deployment with Docker and Keycloak authentication' — custom Keycloak as OAuth2/OIDC IdP, OAUTH_CLIENT_* config
+- **Passbolt** — docs: /docs/hosting/ldap/ is user/group sync not login; SSO via generic OIDC — /docs/admin/authentication/sso/ (Keycloak/Okta 'using OpenID Connect')
+- **Pelican Panel (Panel)** — panel app/Extensions/OAuth/Schemas/AuthentikSchema.php — admin-configurable Authentik (OIDC) login with base_url/client-id
+- **Peppermint** — repo apps/docs/pages/oidc.md: configure Issuer/Client-ID/Redirect in admin authentication settings (generic OIDC)
+- **Pixeleye** — auth delegated to bundled Ory Kratos: docker/config/kratos.yml oidc method + self-hosting doc configuring OIDC providers
+- **Plane** — docs.plane.so/authentication/sso — 'Configure SAML or OIDC authentication' (Business-plan feature) _(also SAML)_
+- **Polis** — README: OIDC authentication (bundled OIDC simulator / Keycloak dev flow) confirms OIDC login support
+- **Puter** — src/backend/services/auth/OIDCService.ts: configurable OIDC providers incl. custom provider with explicit issuer/endpoints; user_oidc_providers migration
+- **QFieldCloud** — docs.qfield.org/reference/qfieldcloud/auth/: generic OIDC signup/signin; sso/auth_providers.py + allauth (keycloak.svg)
+- **Seatsurfing** — server/service/oidc-claims.go + auth-provider repository/admin UI = configurable OIDC providers
+- **SFTPGo** — OIDC/OAuth2 native (go-oidc dep, internal/httpd/oauth2.go); LDAP only via checkpwd hook example (examples/ldapauth), no native LDAP backend
+- **SimpleLogin** — app/auth/views/oidc.py: config.OIDC_WELL_KNOWN_URL + OIDC_CLIENT_ID = generic configurable OIDC login
+- **solidtime** — docs.solidtime.io/self-hosting/single-sign-on/providers/other-oidc-providers (generic OIDC SSO); no LDAP
+- **Strapi** — docs.strapi.io/cms/configurations/guides/configure-sso: Enterprise SSO w/ Keycloak, Okta, Auth0, Azure + generic passport OIDC strategies; LDAP explicitly not supported
+- **supabase** — supabase/auth (GoTrue) README: external provider 'keycloak' + configurable OIDC external auth (client-id/URL) _(also itself an IdP)_
+- **Tabby Web Service** — tabby-web README: Generic OIDC via SOCIAL_AUTH_OIDC_OIDC_ENDPOINT/KEY/SECRET (Authentik, Authelia, Keycloak)
+- **Teable** — apps/nestjs-backend/src/features/auth/strategies/oidc.strategy.ts: passport-openidconnect with config-driven issuer/client (TEABLE_SSO env)
+- **Teleport** — README: SSO via OpenID Connect or SAML (Okta, Microsoft Entra ID); acts as SAML IdP too _(also itself an IdP)_
+- **TREK** — README: OIDC provider by discovery with PKCE (Authentik, Keycloak, Google), OIDC_ONLY mode, admin via claim
+- **Twenty** — auth/strategies/oidc.auth.strategy.ts + sso.service.ts (generic IdP via openid-client, configurable issuer); docs.twenty.com self-host SSO
+- **Urlaubsverwaltung** — security/oidc/* OidcSecurityProperties (issuer/client-id); LDAP+AD auth removed in 5.0 (chglog #4140)
+- **wg-access-server** — README: 'Sign-in with OpenID Connect, GitLab, GitHub or static users' (docs freie-netze.org/wg-access-server/auth/)
+- **Windmill** — backend/windmill-api/src/oidc_oss.rs (OSS OIDC SSO); no LDAP auth module (ldap hits are noise)
+- **WorkAdventure** — README: OIDC server flow (docker-compose OIDC mock, OIDC mock disable for anon); OIDC login config for deployments
+
+## Neither — own accounts only (no SSO possible) (207)
+
+- **4get** — README (git.lolcat.ca): anonymous search engine, no user-auth feature at all
+- **Active Pieces** — repo ee/authentication/saml-authn + federated-authn enum = GOOGLE|SAML only _(also SAML)_
+- **Activepieces** — repo ee/authentication/saml-authn + federated-authn enum = GOOGLE|SAML only _(also SAML)_
+- **Ajenti** — repo: auth_users plugin = OS/PAM users only; no LDAP/OIDC code
+- **Akaunting** — core repo grep: no LDAP/OIDC/SSO; marketplace add-ons only
+- **Aktivisda** — aktivisda.earth: static site, 'No database. No user account needed'
+- **Amara** — own accounts only (no LDAP/OIDC in README/code)
+- **Amusewiki** — repo grep: no LDAP/OIDC/remote_user auth; own wiki user accounts
+- **Anki Sync Server** — README: auth_db_path sqlite — own accounts only
+- **AnonAddy** — repo grep: no LDAP/OIDC/SAML code; own email-based accounts
+- **Anubis** — v1.28.2 code grep: no LDAP/OIDC user login; bot-challenge proxy (subrequest auth via external oauth2-proxy)
+- **Anytype** — any-sync code grep: no LDAP/OIDC; own key-based network accounts
+- **Asqatasun** — repo grep: own accounts only (only 'ldap://' in SSRF test data)
+- **ass** — tiny SS server: own hashed-token accounts
+- **Astral** — README: hardcoded GitHub OAuth social login only
+- **Automatisch** — EE SAML only: db migration create_saml_auth_providers + useAdminSamlAuthProviders hooks _(also SAML)_
+- **Azuracast** — backend/src: local accounts + WebAuthn passkeys; no LDAP/OIDC/SAML auth code
+- **Bandwagon** — README: tool script, no user-auth feature
+- **Beatbump** — no accounts system (YouTube frontend)
+- **Beeper** — closed-cloud client app; no self-host server auth backend
+- **Belenios Voting** — src/web/server/common/web_auth_cas.ml: CAS SSO only; no LDAP/OIDC/SAML
+- **BirdsiteLive** — admin-only relay, no user-auth feature
+- **BitcartCC** — repo grep: own accounts; 'oidc' only in CI docker provenance
+- **Blynk** — blynk-library README: IoT device client lib; Blynk platform uses own cloud accounts, no LDAP/OIDC backend
+- **Brinjel** — framagit project page: crop-planning app, own accounts only; no auth docs
+- **Cactus Comments** — server README: Matrix-based comment system; auth delegated to Matrix homeserver
+- **Cap** — Cap docs/trusted-proxy-auth.md: reverse-proxy signed sign-in (single account); no LDAP/OIDC _(also auth-proxy headers)_
+- **Carre** — README silent on auth: own accounts only
+- **Cattr** — README silent on auth: own accounts only
+- **Cecil** — PHP static site generator; no user auth at all (README)
+- **Chaskiq** — README: own accounts; only OAuth mention is GraphQL API auth
+- **chatmail** — README: token-based chatmail accounts; no web login UI
+- **Chatterbox** — Element Web wrapper (README); Matrix homeserver handles login
+- **Chatwoot** — chatwoot .env.example: Google OAuth only; no LDAP/OIDC settings found
+- **CheckMate** — README: own accounts via JWT_SECRET/TOKEN_TTL; no LDAP/OIDC
+- **ClassicPress** — WordPress fork; core uses own accounts; LDAP/OIDC only via third-party WP plugins
+- **ClicAMAP** — Symfony app README: own user accounts; no LDAP/OIDC config
+- **Clipbucket** — README: own accounts + social connect; no LDAP/OIDC
+- **Commonplace** — framagit: federated link-collection manager, own accounts only
+- **Congressus** — README minimal: own accounts only
+- **Coquelicot** — gitlab.inria.fr/coquelicot README: anonymous URL-based file sharing, no user accounts
+- **crabgrass** — config/crabgrass.yml.example: local accounts; no LDAP/OIDC settings
+- **Crowdsec** — README: headless detection engine, API-key auth between components; no end-user login
+- **Cytube** — README: own per-user account system; no LDAP/OIDC in README/wiki
+- **Danbooru** — own accounts; OAuth is for third-party API apps, not IdP login
+- **DD Builder** — gitlab.com/Birdiz/ddbuilder README: no auth/LDAP/OIDC features (small builder app, own accounts only)
+- **Decap CMS** — Git-based CMS; login only via git backends (GitHub/GitLab OAuth); no LDAP or generic OIDC in README/docs
+- **Docusaurus** — static site generator; no user authentication at all (README)
+- **Drawpile** — source tree (src/thinsrv authdialog, libshared authtoken): own user accounts / session auth; no LDAP/OIDC modules
+- **EmDash** — README: 'Passkey-first (WebAuthn) with OAuth and magic link fallbacks' - own users only; no LDAP/OIDC paths in repo tree
+- **Endlessh** — SSH tarpit honeypot; no user/authentication concept (README)
+- **Ente** — help.ente.io self-hosting/administration/users: email+OTT own accounts, no SSO/OIDC/LDAP config in self-hosting docs
+- **Ente Photos** — help.ente.io self-hosting docs: own accounts (email OTT, 2FA, passkeys); no SSO/OIDC config
+- **EteSync** — server README: own EteSync accounts (password auth); no LDAP/OIDC mentions
+- **eventschedule** — README: 'optional Google and Facebook sign-in', selfhosted install single-user; hardcoded social OAuth only
+- **Farside** — README: anonymous link aggregator, no account system; no LDAP/OIDC
+- **fdroidserver** — command-line build/publish tool for F-Droid repos; no user-facing auth
+- **Filen Webdav** — WebDAV bridge to Filen cloud; auth = Filen account credentials; no LDAP/OIDC
+- **Fileverse** — README: own accounts; no LDAP/OIDC mentions
+- **Fizzy** — README: self-hosted with own user accounts; no LDAP/OIDC/SSO mentions
+- **FlareSolverr** — proxy server for captcha solving; no user authentication (README)
+- **Flus** — README: own accounts / ActivityPub identity; no LDAP/OIDC mentions
+- **Forem** — vendor omniauth gems only google-oauth2/facebook/github/apple/mlh; no omniauth-openid-connect or LDAP anywhere in repo tree
+- **Fossil** — fossil-scm.org docs: repository-local user accounts (auto-login/master password); REMOTE_USER appears only as CGI env var; no LDAP/OIDC
+- **Foutain ink** — README: collaborative screenwriting app, own accounts; no LDAP/OIDC mentions
+- **Fractale** — fractal6.go README: own user accounts; no LDAP/OIDC mentions
+- **Framaestro_hub** — mozilla/togetherjs README: hub server mostly anonymous, sign-in was Facebook/Twitter social accounts; no LDAP/OIDC
+- **gathio** — no-registration event pages; docs.gath.io config docs show no auth backends
+- **Gatsby** — static site generator - no user authentication at all
+- **Geeftlist** — own accounts only; README/docs mention no LDAP/OIDC
+- **GeoVisio** — public frontend README silent on auth; no LDAP/OIDC docs found (backend repo not public)
+- **Gladys Assistant** — local user accounts only; no LDAP/OIDC in README/docs
+- **Goaccess** — generates static HTML log reports; no built-in auth (reverse-proxy only)
+- **GoGoCarto** — social OAuth login only via knpu_oauth2_client bundle config; no LDAP/generic OIDC
+- **Gollum** — README 'Running with an Authentication Server': CAS SSO/Rack REMOTE_USER example on wiki _(also auth-proxy headers)_
+- **gomuks** — Matrix CLI client - logs into homeserver accounts; no LDAP/OIDC
+- **Granary** — Python library converting social formats; no login/auth surface
+- **Gumroad** — open-sourced SaaS marketplace; own user accounts only
+- **Guppe** — login via ActivityPub/Mastodon identity; no LDAP/OIDC
+- **Hammond** — own accounts only; README silent on LDAP/OIDC
+- **Helpy** — OmniAuth social login (Google/Facebook/Twitter) per README+wiki; no generic OIDC/LDAP
+- **Hexo** — static blog generator - no user authentication
+- **HistoPad** — tiny PHP etherpad archiver; no auth backends
+- **Hollo** — single-user ActivityPub microblog; own login only
+- **Hydroxide** — ProtonMail CLI; authenticates with Proton credentials only
+- **Hypothes.is** — h UserIdentity providers hardcoded (GOOGLE/FACEBOOK/ORCID enum); no LDAP backend
+- **Ibis** — federated encyclopedia; own accounts only
+- **Inboxen** — archived mail alias service; own accounts only
+- **Inventaire** — own accounts only; no LDAP/OIDC in docs or source
+- **Invidious Router** — own accounts only (invidious backend); no auth feature in README
+- **IPFS** — no user authentication — protocol/daemon, not a user login app
+- **Isoflow** — own accounts only; README silent
+- **Keila** — source grep (github clone): no LDAP/OIDC/SAML — local auth only
+- **Khoj** — source grep (github clone): no LDAP/OIDC — own accounts + Google OAuth
+- **Kitchenowl** — own accounts only; README silent
+- **kitten** — own accounts only; tiny notes app, README silent
+- **Known** — source grep (github clone): no LDAP/OIDC — own accounts + IndieAuth/OAuth plugins
+- **Kula** — own accounts only; README silent
+- **Lauti** — own accounts only; README silent
+- **Lila** — lila.conf.defaults: no LDAP/OIDC — own accounts + social OAuth
+- **LimeJourney** — own accounts only; README silent
+- **LinguaCafe** — own accounts only; README silent
+- **Lingva Translate** — no user accounts at all
+- **linkhut** — own accounts only; personal project
+- **LocomotiveCMS** — engine source grep: no LDAP/OIDC/SAML — Devise local auth
+- **Logseq** — local-first notes app; no server-side user auth
+- **Loomio** — ruby-saml SAML identity provider (app/services/saml_identity_params.rb) + generic OAuth2 client; no OIDC RP _(also SAML)_
+- **loot** — own accounts only; README silent
+- **Loxya** — own accounts only; README silent
+- **MaidSafe** — safe_network is a P2P network library/archived stack, no user-login system at all
+- **Mailpile** — README: local email client with own web-login; no LDAP/OIDC mention
+- **Matrix Hookshot** — Matrix bridge service; no end-user login at all (README silent on auth backends)
+- **mautrix-gmessages** — Matrix<->Google Messages bridge; login is QR-pairing a Google account, no user auth backend
+- **mautrix-googlechat** — Matrix<->Google Chat bridge; QR pairing only, no user auth backend
+- **mautrix-meta** — Matrix<->Messenger/Instagram bridge; QR/cookie pairing only, no user auth backend
+- **mCaptcha** — README: own site/admin accounts only; no LDAP/OIDC mention
+- **Mediagoblin** — own accounts only; FAQ/docs show no LDAP/OIDC auth backends
+- **Medusa** — README: single-admin basic-auth media manager; no LDAP/OIDC
+- **MeshChatX** — tiny Meshtastic chat app; no authentication system of any kind
+- **Microweber** — README: own Laravel user accounts; no LDAP/OIDC feature mentioned
+- **Mindustry** — game; servers use name/whitelist, no user authentication backend
+- **misfin** — tiny Gemini-protocol client/proxy; no user accounts or auth backend
+- **MkDocs** — static site generator; no authentication at all
+- **mods Community Edition** — MODS metadata model library/project code for repositories; no user login system
+- **morss** — RSS scrubber proxy; no authentication at all (README silent)
+- **My Idlers** — own accounts only: README has own login/register/password-reset
+- **mysigmail** — README: own email/password accounts only; no LDAP/OIDC mention
+- **NeoDB** — own accounts + hardcoded social OAuth; repo issue search for oidc: 0 results
+- **NOE** — own accounts only
+- **obico** — README: own accounts only; no LDAP/OIDC mention
+- **Obsidian** — share-note-self-hosted-backend is auth-less S3 backend for Obsidian Sync; no login system
+- **officelife** — own accounts only (README silent on LDAP/OIDC)
+- **OhMyForm** — LDAP/SAML claim in app listings not implemented: no ldap/oidc code in master tree grep; local accounts only
+- **Open Support** — no ldap/oidc code in master tree grep; own accounts only despite marketing claims
+- **OpenCapture** — own accounts only (WordPress-based backend, README silent)
+- **OpenCart** — core has own storefront/admin accounts; LDAP only 3rd-party marketplace extensions
+- **OpenCut** — own accounts only (README silent on auth integrations)
+- **openHAB** — community.openhab.org/t/single-sign-on/168652: 'openHAB doesn't support OIDC servers or LDAP (yet)' (2026)
+- **ospreadsheet** — frontend spreadsheet library (Odoo), no authentication layer at all
+- **Padloc** — own accounts only (README silent on LDAP/OIDC)
+- **Peergos** — own p2p identity/accounts only
+- **personal-management-system** — own accounts only (README silent on LDAP/OIDC)
+- **Photon for Lemmy** — Lemmy client app; authenticates against Lemmy instance accounts only
+- **PIA** — own accounts only (README silent on auth integrations)
+- **Picpeak** — own accounts/upload-passwords only (README grep shows no LDAP/OIDC)
+- **Pinry** — own Django accounts only (README silent)
+- **Plasmic** — own email/Google cloud accounts; README silent on enterprise SSO
+- **Polotno Studio** — client-side design studio, no server authentication at all
+- **POSSE Party** — own accounts only (README silent on LDAP/OIDC)
+- **pritunl** — docs.pritunl.com/kb/vpn/sso: Google/Okta/Azure SSO, AD via RADIUS only; no LDAP backend, no generic OIDC client _(also SAML)_
+- **PrivateGPT** — README LDAP/AD line is Zylon enterprise platform feature, not OSS privateGPT (github.com/imartinez/privateGPT README)
+- **ProtonMail Bridge** — own accounts only (Proton account)
+- **ProtonMail’s WebClient** — own accounts only (Proton login)
+- **Proxigram** — own accounts only (no user auth, Instagram viewer)
+- **pyfedi** — own accounts only (fediverse login)
+- **Race for the galaxy** — own accounts only
+- **Raindrop** — hosted SaaS login (Google/Facebook OAuth social only)
+- **Read the Docs** — readthedocs/sso app + docs/user/guides/set-up-single-sign-on-saml.rst: SAML SSO only; allauth providers GitHub-only _(also SAML)_
+- **Saltcorn** — repo tree grep: no ldap/oidc/sso auth backend in packages/server/auth
+- **SAT** — own accounts only (Salut a Toi XMPP profiles); sat_ynh draft README still template
+- **savapage** — own accounts only
+- **Scanopy** — own accounts only (desktop app, no user auth)
+- **Schleuder Web** — own accounts only (schleuder accounts; README silent on auth backends)
+- **Scribe** — own accounts only (no user auth, personal wiki; README only GitHub token proxy)
+- **Self hosted google fonts** — own accounts only (no auth at all)
+- **Sentry** — SAML auth providers only (fixtures/saml2_*, organization_auth_providers); no LDAP/generic OIDC in repo tree _(also SAML)_
+- **shadowsocks** — own accounts only (encryption proxy, no user auth)
+- **shinken** — monitoring engine; no auth backend in repo (only contrib nconf config + test fixtures)
+- **Slidge (bundle)** — own accounts only (XMPP accounts)
+- **SocialHome** — own accounts only (local accounts + federation)
+- **SourceHut** — man.sr.ht/meta.sr.ht: own credentials + 2FA; OAuth2 is outbound (sr.ht as provider) only
+- **Spacebar** — spacebarchat/server README silent on auth; own accounts (Revolt fork)
+- **sphinx** — docs generator, no user auth at all
+- **Spliit** — README has no auth/LDAP/OIDC section; shared-link access, own lightweight accounts
+- **Spodcast** — podcast downloader/RSS server; no user login (only upstream Spotify creds)
+- **Stackedit** — client-side editor; only outbound Google Drive/Dropbox OAuth sync
+- **Stingle API Server** — own E2EE accounts; README silent on LDAP/OIDC
+- **Stoat** — stoatchat/self-hosted README: own account auth (Revolt fork); no LDAP/OIDC
+- **Storj** — storage network (satellite/node); own accounts, no LDAP/OIDC client
+- **Storyden** — repo internal OAuth AS (device flow, CIMD) is outbound; sign-in via GitHub/social or email _(also itself an IdP)_
+- **Takahē** — fediverse server, own accounts; README silent on LDAP/OIDC
+- **Taskchampion Sync Server** — sync server with encryption keys, no user login
+- **Taskwarrior** — CLI task tool, no user accounts/auth
+- **textbee** — README: auth via Firebase Authentication; no LDAP/OIDC
+- **Theia-IDE** — IDE framework; no user login backend (OAuth only for plugin/external APIs)
+- **tibillet** — Lespass: own accounts via AuthBillet (TiBillet's own OAuth SSO), no generic LDAP/OIDC client
+- **trivy** — vulnerability scanner CLI, no user auth
+- **tutao** — login = own E2EE accounts only; openid-client lib in repo is for Gmail IMAP import; no LDAP/OIDC docs on tuta.com
+- **Twake.app** — code search TwakeApp/Twake: 0 hits ldap/oidc; README silent; own accounts
+- **Typst** — typesetting compiler/language; no user auth at all
+- **upmpdcli** — UPnP MPD bridge daemon; no web login/user auth
+- **Uwazi** — code search: 0 saml/oidc, ldap hits are substring noise; local accounts only
+- **Vernissage** — code search 0 hits ldap/oidc; local accounts + fediverse (ActivityPub/OAuth federation)
+- **Wafrn** — code search 0 hits ldap/oidc; own accounts, ActivityPub client OAuth not user SSO
+- **Webstudio** — login via GitHub OAuth only; no ldap/oidc modules in code search
+- **Webterminal** — code search 0 hits; own user accounts only
+- **WebThings Gateway** — code search 0 hits; own local/WebThings-ID user login
+- **Whishper** — code search 0 hits; wraps Wikibase which uses its own wiki accounts
+- **WikiSuite** — gitlab.com/wikisuite = Virtualmin installer scripts for stock apps (Tiki/Cypht etc.); no own auth layer
+- **WildDuck** — code search 0 hits; own MongoDB user DB via API, 2FA built-in
+- **wishthis** — code search 0 hits; own accounts only
+- **Xibo** — lib/Middleware/SAMLAuthentication.php + SsoSignInProviders.php = SAML SSO; openid_connect 0 hits, ldap hits are test fixtures _(also SAML)_
+- **Yolo jukebox** — toy LAN jukebox (framagit fun); no user auth
+- **your_spotify** — README: login is Spotify OAuth only; code 0 hits ldap/oidc
+- **zigbee2mqtt.io** — no user account system (frontend basic auth only); code 0 hits
+- **Zoneminder** — AUTH_LDAP 0 hits; AUTH_RELAY present (42 hits) = auth-proxy header SSO (remote_user/remauth) _(also auth-proxy headers)_
+- **Zotero** — zotero-server fork: own username/password account table; no external auth
+
+## Unknown — upstream unreachable (4)
+
+- **BrandCraft** — github.com/sevleo/BrandCraft returns 404; no public repo or docs
+- **dotmakeup** — git.sr.ht API 404 for ~cloutier/dotmakeup and user cloutier: no reachable public repo
+- **Ephemera** — github.com/OrwellianEpilogue/ephemera 404 (repo and user not found): no public repo
+- **SCENARIchainserver** — doc.scenari.software is JS shell, no auth docs reachable; forge page has no auth info
